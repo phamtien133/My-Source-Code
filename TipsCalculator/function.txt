@@ -1,0 +1,15 @@
+2.Tips calculator helper
+  1.Input the total bill cost and number of guests
+  2.Calculate the amount of tip (10% of bill cost)
+  3.Calculate cost share equally for each guest
+Deliverables
++ Source code
++ Release (compiled exe)
++ readme.txt
+- Your info (ID, Name, email)
+- What you have done?
+- Main flow (main success scenario when using the app)
+    Example: Fill Fullname textbox with “Tran”, fill Year textbox with 1980,  click button Calculate to see the age is 36 in Your age textbox
+
+ - Additional flow
+Enter 2010 in Year textbox to see error message: “Year cannot be greater than 1990”

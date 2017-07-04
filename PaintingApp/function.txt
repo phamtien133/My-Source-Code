@@ -1,0 +1,7 @@
+Create a painting app that can:
+
+1. Draw 3 types of objects: Line, Rectangle, Ellipse.
+
+2. Save & load all these objects as binary data to external file.
+
+3. Store & load all drawing functions in an external dll file.

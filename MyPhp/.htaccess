@@ -1,0 +1,70 @@
+# URL Rewrite
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    #
+    #  Full path to your site
+    #
+    RewriteBase /
+
+    # Rename Photo Names
+    # RewriteRule ^file/pic/photo/([0-9]+)/([0-9]+)/([A-Za-z0-9]{32}+)\-(.*?)_([0-9]*?)\.(.*)$ file/pic/photo/$1/$2/$3_$5.$6
+    # RewriteRule ^file/pic/photo/([0-9]+)/([0-9]+)/([A-Za-z0-9]{32}+)\-(.*?)\.(.*)$ file/pic/photo/$1/$2/$3.$5    
+
+    # 301 redirect if missing www.
+    #RewriteCond %{HTTP_HOST} !^www\.
+    #RewriteRule ^(.*)$ http://www.% {HTTP_HOST}/$1 [R=301,L]
+
+    # 301 redirect if missing trailing slash
+    #RewriteCond %{REQUEST_FILENAME} !-f
+    #RewriteCond %{REQUEST_FILENAME} !-d
+    #RewriteRule [^/]$ %{REQUEST_URI}/ [R=301,L]
+
+    #
+    #  Rules
+    #
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^(.*) index.php?do=/$1
+    
+    #
+    # redirect den thu muc dich khi dung nhieu subdomain
+    #
+    RewriteCond %{HTTP_HOST} ^img\.(.*) [OR]
+    RewriteCond %{HTTP_HOST} ^cdn\.(.*) [OR]
+    RewriteCond %{HTTP_HOST} ^s\.(.*) [OR]
+    RewriteCond %{HTTP_HOST} ^(.*)
+    RewriteRule files/(.*) file/report/%1/$1 [L]
+    
+    # Image Access Protection
+    # RewriteRule ^file/pic/photo/(.*)\.(.*)$ static/image.php?file=$1&ext=$2
+</IfModule>
+
+# Modify Headers
+<IfModule mod_expires.c>
+    ExpiresActive ON
+
+    # Cache files
+    <FilesMatch "\.(ico|pdf|flv|jpg|jpeg|png|gif|swf|mp3|mp4)$">
+        Header set Cache-Control "public"
+        ExpiresDefault "access plus 2 months"
+        Header unset Last-Modified
+    </FilesMatch>
+
+    # Cache JavaScript & CSS
+    <FilesMatch "\.(js|css)$">
+        Header set Cache-Control "public"
+        ExpiresDefault "access plus 2 months"
+        Header unset Last-Modified
+    </FilesMatch>
+</IfModule>
+
+# Compress JavaScript & CSS
+<IfModule mod_deflate.c>
+    <FilesMatch "\.(js|css|php)$">
+        SetOutputFilter DEFLATE
+    </FilesMatch>
+</IfModule>
+#AuthType Basic
+#AuthName "My Protected Area"
+#AuthUserFile /var/www/bongbong/.htpasswd
+#Require valid-user

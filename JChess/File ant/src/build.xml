@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="ChessGame" default="default" basedir=".">
+    <description>Builds, tests, and runs the project ChessGame.</description>
+    <import file="nbproject/build-impl.xml"/>
+        <target name="-post-compile">
+            <obfuscate>
+                <fileset dir="${build.classes.dir}"/>
+            </obfuscate>
+        </target>
+        <target name="run" depends="ChessGame-impl.jar">
+            <exec dir="bin" executable="launcher.exe">
+                <arg file="${dist.jar}"/>
+            </exec>
+        </target>    
+</project>

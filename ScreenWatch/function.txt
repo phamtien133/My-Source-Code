@@ -1,0 +1,3 @@
+Write a program to periodically every 2 second save a picture of the screen to disk. Activate with Ctrl + Alt + Shift + S.
+
+Filename should be in this format: "Screen yymmdd hhmmss.bmp" or .png.

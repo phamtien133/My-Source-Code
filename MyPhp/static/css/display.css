@@ -1,0 +1,6 @@
+.sortable img, .sortable li{
+    cursor: move;
+}
+.order-list-box .r {
+    cursor: move !important;    
+}

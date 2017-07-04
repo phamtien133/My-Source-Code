@@ -1,0 +1,6 @@
+﻿Di chuyển,Bus,10000
+Nhà cửa,Nước,10000
+Xe cộ,Xăng,10000
+Nhu yếu phẩm,Xmen,10000
+Dịch vụ,Net,10000
+Ăn uống,Cơm,10000

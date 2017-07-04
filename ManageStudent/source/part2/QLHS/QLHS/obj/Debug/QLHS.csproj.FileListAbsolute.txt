@@ -1,0 +1,15 @@
+E:\Semester 4\NM CNPM\Team work\QLHS_WinForm\QLHS\QLHS\bin\Debug\QLHS.exe.config
+E:\Semester 4\NM CNPM\Team work\QLHS_WinForm\QLHS\QLHS\obj\Debug\QLHS.csprojResolveAssemblyReference.cache
+E:\Semester 4\NM CNPM\Team work\QLHS_WinForm\QLHS\QLHS\obj\Debug\QLHS.ReportSubject.resources
+E:\Semester 4\NM CNPM\Team work\QLHS_WinForm\QLHS\QLHS\obj\Debug\QLHS.Properties.Resources.resources
+E:\Semester 4\NM CNPM\Team work\QLHS_WinForm\QLHS\QLHS\obj\Debug\QLHS.Successful_Report.resources
+E:\Semester 4\NM CNPM\Team work\QLHS_WinForm\QLHS\QLHS\obj\Debug\QLHS.csproj.GenerateResource.Cache
+E:\Semester 4\NM CNPM\Team work\QLHS_WinForm\QLHS\QLHS\bin\Debug\QLHS.exe
+E:\Semester 4\NM CNPM\Team work\QLHS_WinForm\QLHS\QLHS\bin\Debug\QLHS.pdb
+E:\Semester 4\NM CNPM\Team work\QLHS_WinForm\QLHS\QLHS\obj\Debug\QLHS.exe
+E:\Semester 4\NM CNPM\Team work\QLHS_WinForm\QLHS\QLHS\obj\Debug\QLHS.pdb
+E:\Semester 4\NM CNPM\Team work\QLHS_WinForm\QLHS\QLHS\obj\Debug\QLHS.ClassReport.resources
+E:\Semester 4\NM CNPM\Team work\QLHS_WinForm\QLHS\QLHS\obj\Debug\QLHS.SuccessfulClassReport.resources
+D:\Documents\K2014 nam 2\Hoc ki 2\NM CNPM\Student Management Software\nmcnpm\nmcnpm\QLHS (1)\QLHS\QLHS\bin\Debug\QLHS.exe.config
+D:\Documents\K2014 nam 2\Hoc ki 2\NM CNPM\Student Management Software\nmcnpm\nmcnpm\QLHS (1)\QLHS\QLHS\obj\Debug\QLHS.exe
+D:\Documents\K2014 nam 2\Hoc ki 2\NM CNPM\Student Management Software\nmcnpm\nmcnpm\QLHS (1)\QLHS\QLHS\obj\Debug\QLHS.pdb

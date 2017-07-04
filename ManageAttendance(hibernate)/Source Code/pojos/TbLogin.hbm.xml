@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Apr 12, 2017 3:51:30 PM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="pojos.TbLogin" table="tb_login" catalog="attendance" optimistic-lock="version">
+        <id name="loginId" type="java.lang.Integer">
+            <column name="login_id" />
+            <generator class="identity" />
+        </id>
+        <property name="loginUser" type="string">
+            <column name="login_user" length="30" not-null="true" />
+        </property>
+        <property name="loginPass" type="string">
+            <column name="login_pass" length="65535" not-null="true" />
+        </property>
+        <property name="loginRole" type="int">
+            <column name="login_role" not-null="true" />
+        </property>
+        <property name="loginFirstLogin" type="int">
+            <column name="login_first_login" not-null="true" />
+        </property>
+        <set name="tbTeacherses" table="tb_teachers" inverse="true" lazy="true" fetch="select">
+            <key>
+                <column name="teachers_login_id" not-null="true" />
+            </key>
+            <one-to-many class="pojos.TbTeachers" />
+        </set>
+        <set name="tbStudentses" table="tb_students" inverse="true" lazy="true" fetch="select">
+            <key>
+                <column name="students_login_id" not-null="true" />
+            </key>
+            <one-to-many class="pojos.TbStudents" />
+        </set>
+    </class>
+</hibernate-mapping>

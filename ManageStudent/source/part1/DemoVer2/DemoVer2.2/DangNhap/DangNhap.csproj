@@ -1,0 +1,360 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{06D1269C-18B6-445A-A975-3B9278FC27EC}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DangNhap</RootNamespace>
+    <AssemblyName>DangNhap</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ClassReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClassReport.designer.cs">
+      <DependentUpon>ClassReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CSDL.cs" />
+    <Compile Include="DataSet1.cs">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="frmLapBangDiem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLapBangDiem.designer.cs">
+      <DependentUpon>frmLapBangDiem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLapBaoCao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLapBaoCao.designer.cs">
+      <DependentUpon>frmLapBaoCao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMainGV.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMainGV.designer.cs">
+      <DependentUpon>frmMainGV.cs</DependentUpon>
+    </Compile>
+    <Compile Include="F_DatLaiMK.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F_DatLaiMK.Designer.cs">
+      <DependentUpon>F_DatLaiMK.cs</DependentUpon>
+    </Compile>
+    <Compile Include="F_LapBangDiemHocKy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F_LapBangDiemHocKy.Designer.cs">
+      <DependentUpon>F_LapBangDiemHocKy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="F_LapBaoCaoTongKetMon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F_LapBaoCaoTongKetMon.Designer.cs">
+      <DependentUpon>F_LapBaoCaoTongKetMon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="F_LapDSLop.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F_LapDSLop.Designer.cs">
+      <DependentUpon>F_LapDSLop.cs</DependentUpon>
+    </Compile>
+    <Compile Include="F_Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F_Login.Designer.cs">
+      <DependentUpon>F_Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="F_MainNVPDT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F_MainNVPDT.Designer.cs">
+      <DependentUpon>F_MainNVPDT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="F_MainTruongPDT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F_MainTruongPDT.Designer.cs">
+      <DependentUpon>F_MainTruongPDT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="F_Search.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F_Search.Designer.cs">
+      <DependentUpon>F_Search.cs</DependentUpon>
+    </Compile>
+    <Compile Include="F_TaoTaiKhoan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F_TaoTaiKhoan.Designer.cs">
+      <DependentUpon>F_TaoTaiKhoan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="F_ThayDoiLopDoc_XoaLop.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F_ThayDoiLopDoc_XoaLop.Designer.cs">
+      <DependentUpon>F_ThayDoiLopDoc_XoaLop.cs</DependentUpon>
+    </Compile>
+    <Compile Include="F_ThaydoiLopHoc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F_ThaydoiLopHoc.Designer.cs">
+      <DependentUpon>F_ThaydoiLopHoc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="F_ThayDoiLopHoc_SiSo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F_ThayDoiLopHoc_SiSo.Designer.cs">
+      <DependentUpon>F_ThayDoiLopHoc_SiSo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="F_ThayDoiLopHoc_SuaLop.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F_ThayDoiLopHoc_SuaLop.Designer.cs">
+      <DependentUpon>F_ThayDoiLopHoc_SuaLop.cs</DependentUpon>
+    </Compile>
+    <Compile Include="F_ThayDoiLopHoc_ThemLop.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F_ThayDoiLopHoc_ThemLop.Designer.cs">
+      <DependentUpon>F_ThayDoiLopHoc_ThemLop.cs</DependentUpon>
+    </Compile>
+    <Compile Include="F_ThayDoiQD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F_ThayDoiQD.Designer.cs">
+      <DependentUpon>F_ThayDoiQD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="F_ThayDoiTuoi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F_ThayDoiTuoi.Designer.cs">
+      <DependentUpon>F_ThayDoiTuoi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="F_TiepNhanHocSinh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F_TiepNhanHocSinh.Designer.cs">
+      <DependentUpon>F_TiepNhanHocSinh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="F_XemDSLop.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F_XemDSLop.Designer.cs">
+      <DependentUpon>F_XemDSLop.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QLHOCSINH.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLHOCSINH.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QuanLyHocSinhDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QuanLyHocSinhDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Report_Subject.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report_Subject.designer.cs">
+      <DependentUpon>Report_Subject.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SuccessfulClassReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SuccessfulClassReport.designer.cs">
+      <DependentUpon>SuccessfulClassReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Successful_Report.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Successful_Report.designer.cs">
+      <DependentUpon>Successful_Report.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="ClassReport.resx">
+      <DependentUpon>ClassReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLapBangDiem.resx">
+      <DependentUpon>frmLapBangDiem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLapBaoCao.resx">
+      <DependentUpon>frmLapBaoCao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMainGV.resx">
+      <DependentUpon>frmMainGV.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="F_DatLaiMK.resx">
+      <DependentUpon>F_DatLaiMK.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="F_LapBangDiemHocKy.resx">
+      <DependentUpon>F_LapBangDiemHocKy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="F_LapBaoCaoTongKetMon.resx">
+      <DependentUpon>F_LapBaoCaoTongKetMon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="F_LapDSLop.resx">
+      <DependentUpon>F_LapDSLop.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="F_Login.resx">
+      <DependentUpon>F_Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="F_MainNVPDT.resx">
+      <DependentUpon>F_MainNVPDT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="F_MainTruongPDT.resx">
+      <DependentUpon>F_MainTruongPDT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="F_Search.resx">
+      <DependentUpon>F_Search.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="F_TaoTaiKhoan.resx">
+      <DependentUpon>F_TaoTaiKhoan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="F_ThayDoiLopDoc_XoaLop.resx">
+      <DependentUpon>F_ThayDoiLopDoc_XoaLop.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="F_ThaydoiLopHoc.resx">
+      <DependentUpon>F_ThaydoiLopHoc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="F_ThayDoiLopHoc_SiSo.resx">
+      <DependentUpon>F_ThayDoiLopHoc_SiSo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="F_ThayDoiLopHoc_SuaLop.resx">
+      <DependentUpon>F_ThayDoiLopHoc_SuaLop.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="F_ThayDoiLopHoc_ThemLop.resx">
+      <DependentUpon>F_ThayDoiLopHoc_ThemLop.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="F_ThayDoiQD.resx">
+      <DependentUpon>F_ThayDoiQD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="F_ThayDoiTuoi.resx">
+      <DependentUpon>F_ThayDoiTuoi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="F_TiepNhanHocSinh.resx">
+      <DependentUpon>F_TiepNhanHocSinh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="F_XemDSLop.resx">
+      <DependentUpon>F_XemDSLop.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Report_Subject.resx">
+      <DependentUpon>Report_Subject.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SuccessfulClassReport.resx">
+      <DependentUpon>SuccessfulClassReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Successful_Report.resx">
+      <DependentUpon>Successful_Report.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="DataSet1.xsc">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet1.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet1.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSet1.xss">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\DataSources\DangNhap.QuanLyHocSinhDataSetTableAdapters.DSHocSinhTableAdapter.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="QLHOCSINH.xsc">
+      <DependentUpon>QLHOCSINH.xsd</DependentUpon>
+    </None>
+    <None Include="QLHOCSINH.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QLHOCSINH.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="QLHOCSINH.xss">
+      <DependentUpon>QLHOCSINH.xsd</DependentUpon>
+    </None>
+    <None Include="QuanLyHocSinhDataSet.xsc">
+      <DependentUpon>QuanLyHocSinhDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="QuanLyHocSinhDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QuanLyHocSinhDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QuanLyHocSinhDataSet.xss">
+      <DependentUpon>QuanLyHocSinhDataSet.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

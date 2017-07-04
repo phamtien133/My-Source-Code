@@ -1,0 +1,1 @@
+﻿copy file.CSV và thư mục pic để ngang vị trí với source code trước khi build

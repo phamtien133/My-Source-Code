@@ -1,0 +1,54 @@
+{{#section 'title'}}
+    Thông tin người giữ giá
+{{/section}}
+
+<form class="form-horizontal" method="get" action="/account/editProfile" id="frmProfile">
+    <div class="form-group">
+        <label for="txtUsername" class="col-sm-2 control-label">Họ tên</label>
+        <div class="col-sm-4">
+            <input type="text" class="form-control" id="txtHoTen" placeholder="Họ tên" name="hoten" value="{{user.hoten}}" readonly>
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="txtName" class="col-sm-2 control-label">Địa chỉ</label>
+        <div class="col-sm-4">
+            <input type="text" class="form-control" id="txtName" placeholder="Địa chỉ" name="diachi" value="{{user.diachi}}" readonly>
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="txtEmail" class="col-sm-2 control-label">Email</label>
+        <div class="col-sm-4">
+            <input type="text" class="form-control" id="txtEmail" placeholder="Email" name="email" value="{{user.email}}" readonly>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label for="txtEmail" class="col-sm-2 control-label">Điểm đánh giá</label>
+        <div class="col-sm-4">
+            <input type="text" class="form-control" id="txtEmail" placeholder="Điểm đánh giá" name="diemdanhgia" value="{{user.diemdanhgia}}%" readonly>
+        </div>
+    </div>
+
+    <div class="form-group col-sm-10">
+        <table class="table">
+            <thead>
+              <tr>
+                <th>Họ tên</th>
+                <th>Email</th>
+                <th>Nội dung</th>
+                <th>Điểm đánh giá</th>
+              </tr>
+            </thead>
+            <tbody>
+            {{#each ratings }}
+                <tr>
+                <td>{{hoten}}</td>
+                <td>{{email}}</td>
+                <td>{{noidung}}</td>
+                <td>{{diemdanhgia}}</td>
+              </tr>
+            {{/each}}
+            </tbody>
+        </table>
+    </div>
+</form>

@@ -1,0 +1,172 @@
+/*  
+    BORDER BOTTOM EDEDED
+    BACKGROUND: F6F6F6;
+*/
+/*  border radius */
+/*  Màu cơ bản */
+/*  Clear after */
+.mxClrAft:after {
+  display: block;
+  width: 0;
+  height: 0;
+  visibility: hide;
+  clear: both;
+  content: " ";
+}
+.bgs {
+  background-image: url(../images/theme/main.png);
+  background-size: 500px 500px;
+  background-repeat: no-repeat;
+}
+/*  Class overlay chung, dùng để thêm vào selector nào cần hiệu ứng khi rê chuột vào */
+/*  Css transform scale*/
+.mxGray {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  filter: gray;
+  filter: url("data:image/svg+xml;utf8,<svg version='1.1' xmlns='http://www.w3.org/2000/svg' height='0'><filter id='greyscale'><feColorMatrix type='matrix' values='0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0' /></filter></svg>#greyscale");
+}
+.mxColor {
+  -webkit-filter: grayscale(0);
+  filter: grayscale(0);
+  filter: none;
+}
+.taoquangcao {
+  display: block;
+  width: 1004px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+.taoquangcao .le {
+  display: block;
+  width: 764px;
+  margin-right: 20px;
+  float: left;
+}
+.taoquangcao .le .box {
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  box-shadow: 0 -1px 2px 0 rgba(0, 0, 0, 0.1), 0 1px 0 0 rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  padding-bottom: 0;
+  width: 372px;
+  background-color: #fff;
+  float: left;
+  margin-right: 20px;
+}
+.taoquangcao .le .box:last-child {
+  margin-right: 0;
+}
+.taoquangcao .le .box .r {
+  display: block;
+  padding-bottom: 27px;
+}
+.taoquangcao .le .box .r .t {
+  display: block;
+  font-size: 14px;
+  color: #00bcd4;
+}
+.taoquangcao .le .box .r .ip {
+  border: none;
+  box-shadow: none;
+  border-bottom: 1px solid #00bcd4;
+  height: 27px;
+  font-size: 13px;
+  width: 100%;
+}
+.taoquangcao .ri {
+  display: block;
+  width: 220px;
+  float: left;
+}
+.taoquangcao .ri .ctrl {
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  box-shadow: 0 -1px 2px 0 rgba(0, 0, 0, 0.1), 0 1px 0 0 rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  padding-bottom: 0;
+  background-color: #fff;
+}
+.taoquangcao .ri .ctrl md-button {
+  height: 35px;
+  margin-bottom: 16px;
+  width: 100%;
+  font-size: 14px;
+  background-color: #00bcd4;
+  color: #fff;
+  font-family: HelveticaNeue-Medium;
+}
+.taoquangcao .ri .ctrl md-button.ba {
+  color: #999;
+  background-color: rgba(0, 0, 0, 0.12);
+  text-transform: none;
+}
+.taoquangcao .ri .ctrl md-button:hover {
+  box-shadow: 0 -1px 2px 0 rgba(0, 0, 0, 0.1), 0 1px 0 0 rgba(0, 0, 0, 0.1);
+}
+.taoquangcao .ri .ctrl md-button:hover .md-button-inner {
+  background-color: transparent;
+}
+.quangcao {
+  width: 1024px;
+  padding: 20px 0;
+  margin: 0 auto;
+}
+.quangcao .tb {
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  box-shadow: 0 -1px 2px 0 rgba(0, 0, 0, 0.1), 0 1px 0 0 rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  padding-left: 3px;
+}
+.quangcao .tb .cl {
+  float: left;
+  width: 143px;
+  padding-left: 10px;
+  color: rgba(0, 0, 0, 0.54);
+}
+.quangcao .tb .title-list {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.26);
+}
+.quangcao .tb .title-list .cl {
+  font-size: 14px;
+  line-height: 49px;
+  font-family: 'HelveticaNeue-Medium';
+}
+.quangcao .tb .r {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+}
+.quangcao .tb .r:last-child {
+  border: none;
+}
+.quangcao .tb .r .cl .t {
+  font-size: 14px;
+  line-height: 49px;
+  color: rgba(0, 0, 0, 0.54);
+}
+.quangcao .add {
+  -webkit-transition: all 500ms ease 0s;
+  -o-transition: all 500ms ease 0s;
+  transition: all 500ms ease 0s;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  display: block;
+  width: 56px;
+  height: 56px;
+  cursor: pointer;
+  background-position: -462px 19px;
+  margin-bottom: 26px;
+  left: 50%;
+  margin-left: 436px;
+  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.16), 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+  background-color: #00bcd4;
+  position: fixed;
+  bottom: 23px;
+}
+.quangcao .add:hover {
+  box-shadow: 0 14px 14px 0 rgba(0, 0, 0, 0.25), 0 10px 5px 0 rgba(0, 0, 0, 0.22);
+}

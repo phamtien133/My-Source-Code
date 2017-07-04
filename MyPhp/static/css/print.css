@@ -1,0 +1,84 @@
+@media print {
+    html, body {
+        height: auto;    
+    }
+}
+body {
+    background-color: #FFF;
+    overflow: auto;
+}
+.print-content{
+    margin: 10px;
+}
+.print-content:last-child {
+     page-break-after: auto;
+}
+#pint {
+    border: 1px solid #000;
+    border-collapse: collapse; 
+}
+#pint tr td , #pint tr th {
+    border-bottom: 1px solid #000;
+    border-right: 1px solid #000;
+}
+td.not{ border-right: none;}
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+.abc {
+    text-align: right;
+}
+.ac {
+    font-weight: bold;
+}
+.sm {
+    font-size: 8px;
+    font-style: italic;
+}
+.header-title{
+    background: #00a651;
+    color: #FFF;
+    border-color: #00a651;
+}
+.header-title th {
+    font-weight: 200;
+    padding: 0 5px;
+    line-height: 24px;
+}
+table td {
+    padding: 0 5px;
+    line-height: 24px;
+    vertical-align: middle;
+}
+.title-vendor {
+    color: #00a651;
+    font-weight: bold;
+    padding-left: 20px !important;
+}
+.logo{
+    text-align: right;
+}
+.list-vendor span {
+    display: block;
+    color: #00a651;
+    font-family: Helvetica;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 20px;
+    text-align: left;
+}
+table, tr, td, th {
+    border-color: #000 !important;
+}
+.list-vendor img {
+    float: left;
+}
+table.porder-info tr td{
+    padding: 0 15px;
+}
+table.porder-list tr td{
+    padding: 5px;
+}

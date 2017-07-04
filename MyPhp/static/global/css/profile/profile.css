@@ -1,0 +1,1095 @@
+.header {
+    position: relative;
+    z-index: 9999;
+}
+.navi_header {
+    height: 50px;
+}
+.navi_header .logo{
+	margin-left: 10px;
+	margin-top: 5px;
+}
+.navi_header .logo img{
+	height:40px;
+	width: auto;
+}
+.search_header .search_form{
+	border: 1px solid #000;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	height: 36px;
+	margin-top: 6px;
+	overflow: hidden;
+}
+.search_header .search_text {
+    border: medium none;
+    color: #000;
+    font-size: 18px;
+    margin: 5px 15px;
+    width: 170px;
+}
+.search_header .search_button {
+    border: medium none;
+    display: block;
+    float: right;
+    font-size: 0;
+    height: 36px;
+    width: 36px;
+	background: url(../../images/profile/theme/main.png) no-repeat #FFF;
+	background-size: 500px 500px;
+	background-position: -5px -49px;
+}
+.icon_header_control_thong_ke, .icon_header_control_tin_tuc, .icon_header_control_tin_nhan, .icon_header_control_cai_dat{
+	width: 24px;
+	height: 24px;
+	background: url(../../images/profile/theme/main.png) no-repeat #FFF;
+	background-size: 500px 500px;
+	display: block;	
+	margin-top: 5px;
+	margin-left: 20px;
+}
+.icon_header_control_thong_ke{
+	background-position: -12px -12px;
+}
+.icon_header_control_tin_tuc{
+	background-position: -55px -12px;
+}
+.icon_header_control_tin_nhan{
+	background-position: -98px -12px;
+	width: auto;
+}
+.icon_header_control_cai_dat{
+	background-position: -140px -12px;
+}
+.icon_header_control_tin_nhan .so_luong_tin_nhan {
+    background: none repeat scroll 0 0 #d0021b;
+    color: #fff;
+    display: block;
+    font-size: 10px;
+    font-weight: bold;
+    height: 14px;
+    padding: 2px 6px;
+    text-align: center;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+.header_control {
+    margin-right: 10px;
+    margin-top: 10px;
+}
+/**********************************************************************/
+.cover_control .cover{
+	width: 960px;
+	height: 296px;
+	overflow: hidden;
+}
+.cover_control{
+	position: relative;
+}
+.control_header {
+    min-height: 57px;
+}
+.avatar_link {
+    display: block;
+    height: 150px;
+    overflow: hidden;
+    width: 150px;
+	background: #FFF;
+	position: relative;
+}
+.avatar_link .avatar_image {
+    max-height: 150px;
+    max-width: 150px;
+	position: absolute;
+}
+.avatar_profile {
+	background: #ACACAC;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.5);
+    border: 5px solid #fff;
+    bottom: -55px;
+    height: 150px;
+    left: 10px;
+    position: absolute;
+    width: 150px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	z-index: 10;
+}
+.control_header .group_ten {
+    left: 190px;
+    position: relative;
+	margin-top: 5px;
+}
+.group_ten .ten_ca_nhan {
+    display: block;
+    font-size: 21px;
+    font-weight: bold;
+}
+.group_ten .mota_ca_nhan {
+    color: #696969;
+}
+.thong_bao_email, .thong_bao_ket_ban, .thong_bao_ngoi_sao,.follow_thanh_vien .link_follow_thanh_Vien{
+    height: 40px;
+	float: right;
+	border: 1px solid #3d93e0;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	margin-right: 10px;
+	margin-top: 10px;
+	background: url(../../images/profile/theme/main.png) rgba(0,0,0,0);
+	background-size: 500px 500px;
+}
+.thong_bao_email {
+    background-position: -45px -47px;
+    width: 40px;
+}
+.thong_bao_ket_ban, .follow_thanh_vien .link_follow_thanh_Vien{
+	background-position: -100px -47px;
+	width: 40px;
+}
+.follow_thanh_vien .link_follow_thanh_Vien{
+	margin: 10px 0 0 0;
+}
+.thong_bao_ngoi_sao{
+    background-position: -155px -95px;
+    width: 142px;
+	overflow: hidden;
+	padding: 0 12px;
+}
+.link_thong_bao_ngoi_sao {
+    display: block;
+    height: 40px;
+	background: url(../../images/profile/theme/main.png) no-repeat #FFF;
+	background-size: 500px 500px;
+	background-position: -167px -47px;
+}
+.so_luong_thong_bao {
+    background: none repeat scroll 0 0 #d0021b;
+    -webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+    color: #fff;
+    display: inline;
+    font-size: 10px;
+    font-weight: bold;
+    height: 16px;
+    left: -10px;
+    padding: 1px 5px;
+    position: relative;
+    top: -12px;
+    width: auto;
+}
+.left_control{
+	width: 310px;
+	margin-left: 10px;
+	margin-top: 10px;
+	background: #3e94e0;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+.left_control_add_status{
+	position:relative;
+	padding:5px;
+	widows:300px;
+}
+.text_add_status {
+	height: 10px;
+	resize: none;
+	position:relative;
+	z-index: 10;
+    border: medium none;
+    display: block;
+    font-size: 14px;
+    padding: 10px;
+    width: 280px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+.form_add_status .add_hinh_anh, .form_add_status .add_video{
+	width: 30px;
+	height: 30px;
+	margin-top: 4px;
+	margin-left: 10px;
+	background: url(../../images/profile/theme/main.png);
+	background-size: 500px 500px;
+	float: left;
+	cursor: pointer;
+}
+.form_add_status .add_hinh_anh{
+	background-position: -12px -90px;
+}
+.form_add_status .add_video{
+	background-position: -59px -90px;
+}
+
+.form_add_status .submit_status {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: medium none;
+    color: #fff;
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 8px;
+    margin-top: 6px;
+    text-transform: uppercase;
+	cursor: pointer;
+}
+.form_add_status:before {
+    background: none repeat scroll 0 0 #3d93e0;
+    content: " ";
+    display: block;
+    height: 10px;
+    left: 80px;
+    position: absolute;
+    top: -5px;
+    transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+    width: 10px;
+}
+/*******************************************************************/
+.left_control_tab_tin_moi #tabs{
+	background: #F3F3F3;
+}
+.left_control_tab_tin_moi{
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	overflow: hidden;
+}
+.left_control_tab_tin_moi #tabs {
+    background: none repeat scroll 0 0 #F6F6F6;
+    border: medium none;
+    margin: 0;
+	height: 36px;
+}
+.left_control_tab_tin_moi #tabs ul{
+	margin: 0;
+	border: none;
+}
+.left_control_tab_tin_moi #tabs li {
+	position: relative;
+    height: 36px;
+    margin: 0;
+}
+.left_control_tab_tin_moi #tabs li a {
+    height: 20px;
+	border: medium none;
+	font-size: 16px;
+	font-weight: normal;
+}
+.left_control_tab_tin_moi #tabs li.active a {
+	box-shadow: 0 2px 2px rgba(0,0,0,0.1) inset;
+	font-weight:bold;
+    background: none repeat scroll 0 0 #3d93e0;
+}
+#tab_trang_thai, #tab_bai_viet, #tab_lien_he {
+    padding: 10px;
+}
+.list_trang_thai .ten_trang_thai {
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1.2;
+	margin-bottom: 10px;
+	display: block;
+}
+.inner_tab_noi_dung .control_trang_thai a,.inner_tab_noi_dung .control_trang_thai .control_trang_thai_ngay_gio {
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 12px;
+    line-height: 1.2;
+}
+.control_trang_thai .control_trang_thai_xoa:before {
+    background: none repeat scroll 0 0 rgba(255, 255, 255, 0.75);
+    -webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+    content: " ";
+    display: block;
+    float: left;
+    height: 5px;
+    margin-left: 10px;
+    margin-right: 7px;
+    margin-top: 6px;
+    width: 5px;
+}
+.list_trang_thai li {
+    margin-bottom: 15px;
+}
+.main_content {
+  margin-top:10px;  
+}
+.main_content .inner_main_content{
+	width: 620px;
+	background: none repeat scroll 0 0 #f3f3f3;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+.header_main_content {
+    border-bottom: 1px solid #696969;
+    height: 35px;
+}
+.footer_main_content{
+	border-top: 1px solid #696969;
+    height: 35px;
+}
+.header_main_content .update_new {
+    display: block;
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 35px;
+    text-align: center;
+    width: 100%;
+}
+.footer_main_content .read_more {
+    display: block;
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 35px;
+    text-align: center;
+    width: 100%;
+}
+.list_status > li {
+    padding: 10px;
+}
+.avatar_thanh_vien_feed .avatar_image {
+    height: 80px;
+    width: 80px;
+}
+.avatar_thanh_vien_feed {
+    height: 80px;
+    width: 80px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	overflow: hidden;
+}
+.detail_thanh_vien .ten_thanh_vien_feed {
+    font-size: 17px;
+    font-weight: bold;
+	line-height: 1.2;
+	display: block;
+	margin-bottom:3px;
+}
+.detail_thanh_vien .mo_ta_thanh_vien_feed {
+    display: block;
+    line-height: 1.2;
+	font-size:14px;
+	color: rgba(0,0,0,0.75);
+	display: block;
+	margin-bottom:5px;
+}
+.thong_tin_thanh_vien .detail_thanh_vien {
+    display: block;
+	position: relative;
+    left: 10px;
+    margin-top: 10px;
+    width: 440px;
+}
+.detail_thanh_vien .ngoi_sao_thanh_vien{
+	width: 107px;
+	height: 19px;
+	background: url(../../images/profile/theme/main.png) rgba(0,0,0,0);
+	background-size: 500px 500px;
+	background-position: -154px -185px;
+	margin-left: 80px;
+}
+.detail_thanh_vien .ngoi_sao_thanh_vien .link_ngoi_sao_thanh_vien{
+	width: 107px;
+	height: 19px;
+	background: url(../../images/profile/theme/main.png) rgba(0,0,0,0);
+	background-size: 500px 500px;
+	background-position: -154px -155px;
+	display: block;
+}
+.slide_status {
+    margin-top: 10px;
+}
+.fade_slide{
+	background: url(../../images/profile/theme/loading.gif) no-repeat center center rgba(0,0,0,0.02);
+	overflow: hidden;
+	position: relative;
+}
+.fade_slider {
+    position: relative;
+}
+.fade_slider .item_fade_slide {
+    position: absolute;
+	transition: .5s all ease 0s;
+	-webkit-transition: .5s all ease 0s;
+}
+.fade_slider .item_fade_slide img{
+	position: absolute;
+}
+.nav_fade_slide{
+    position: relative;
+    z-index: 10;
+}
+.control_slide {
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    z-index: 5;
+	top: 0;
+	left: 0;
+}
+.control_slide_top_left{
+	top: 10px;
+	left: 10px;
+	position: absolute;
+}
+.control_slide_top_right{
+	top: 10px;
+	right: 10px;
+	position: absolute;
+}
+.control_slide_bottom_right{
+	bottom: 10px;
+	right: 10px;
+	position: absolute;
+}
+.control_slide .tieu_de_slide, .control_slide .gia_slide {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.35);
+    color: #fff;
+    font-weight: bold;
+    line-height: 1.2;
+    padding: 3px 15px;
+    text-transform: uppercase;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+}
+.control_slide .trai_tim_slide{
+	cursor: pointer;
+	width: 37px;
+	display: block;
+	height: 32px;
+	background: url(../../images/profile/theme/main.png);
+	background-size: 1000px 1000px;
+	background-position: -35px -264px;
+}
+.content_status{
+	margin-top: 10px;
+	position: relative;
+}
+.dong_tren{
+	line-height: 1;
+}
+.xem_button.right {
+    border: 1px solid #454545;
+    -webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+    font-size: 22px;
+    padding: 5px 10px;
+    text-transform: uppercase;
+	margin-right: 15px;
+}
+.left.ten_status_thanh_vien {
+    max-width: 500px;
+	font-weight: bold;
+}
+.chi_tiet_mo_ta_status_thanh_vien {
+    color: #454545;
+    font-size: 14px;
+    margin-top: 5px;
+}
+.xem_them_mot_ta_status{
+    color: #969696;
+    font-weight: bold;
+	display: inline-block;
+}
+.xem_them_mot_ta_status:before{
+    background: none repeat scroll 0 0 rgba(0,0,0, 0.75);
+    border-radius: 10px;
+    content: " ";
+    display: block;
+    float: left;
+    height: 5px;
+    margin-left: 10px;
+    margin-right: 7px;
+    margin-top: 6px;
+    width: 5px;
+}
+.item_control_status,.item_control_comment {
+    color: #969696;
+    font-size: 13px;
+}
+.item_control_status.left {
+    margin-right: 10px;
+}
+.item_control_status.right{
+    margin-left: 10px;
+}
+.item_control_status:before{
+    background: #969696;
+    border-radius: 10px;
+    content: " ";
+    display: block;
+    float: left;
+    height: 5px;
+    margin-right: 7px;
+    margin-top: 6px;
+    width: 5px;
+}
+.item_control_status.left:first-child:before{
+	display: none;
+}
+.item_control_status.right:last-child:before{
+	display: none;
+}
+.content_status .dong_duoi{
+	margin-top: 10px;
+}
+.list_comment {
+    background: none repeat scroll 0 0 #e1e1e1;
+    -webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+    margin-top: 10px;
+    padding: 10px;
+}
+.form_post_comment .noi_dung_post_comment {
+    border: medium none;
+    -webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+    color: #000;
+    font-size: 14px;
+    padding: 10px 15px;
+    width: 467px;
+}
+.form_post_comment .submit_comment{
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: medium none;
+    color: #3e97e2;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+	margin: 10px;
+	display: block;
+	float: right;
+}
+.avatar_thanh_vien_feed.avatar_comment, .avatar_thanh_vien_feed.avatar_comment img {
+    height: 60px;
+    width: 60px;
+}
+.avatar_thanh_vien_feed.avatar_comment{
+	margin-right: 15px;
+}
+.detail_comment {
+    width: 505px;
+}
+.danh_sach_comment {
+    margin-top: 10px;
+}
+.noi_dung_comment {
+    color: #454545;
+    font-size: 14px;
+}
+.item_danh_sach_comment {
+    margin-bottom: 20px;
+}
+.list_comment{
+	position:relative;
+}
+.list_comment:before {
+    background: none repeat scroll 0 0 #e1e1e1;
+    content: " ";
+    display: block;
+    height: 10px;
+    left: 20px;
+    position: absolute;
+    top: -3px;
+    transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+    width: 10px;
+}
+.header_control_cai_dat, .header_control_tin_nhan, .header_control_tin_tuc, .header_control_thong_ke{
+	position:relative;
+}
+.popup_thong_bao{
+	position: absolute;
+	margin-top:-10px;
+	display: none;
+	opacity: 1;
+	z-index: 1000;
+	right: -10px;
+	padding-top: 30px;
+}
+.list_popup_thong_bao{
+    background: rgba(255,255,255,0.95);
+    -webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    position: relative;
+    width: 350px;
+	right:0;
+}
+.list_popup_thong_bao:before {
+    background: none repeat scroll 0 0 #fff;
+    box-shadow: -1px -1px 0 rgba(0, 0, 0, 0.2);
+    content: " ";
+    display: block;
+    height: 10px;
+    position: absolute;
+    right: 15px;
+    top: -4px;
+    transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+    width: 10px;
+}
+.avatar_thanh_vien_feed.avatar_thong_bao, .avatar_thanh_vien_feed.avatar_thong_bao img {
+    border-radius: 5px;
+    height: 50px;
+    width: 50px;
+}
+.item_popup_thong_bao .detail_thong_bao {
+    width: 170px;
+}
+.noi_dung_thong_bao {
+    color: #454545;
+    font-size: 13px;
+}
+.item_popup_thong_bao {
+    border-bottom: 1px solid #f1f1f1;
+    min-height: 60px;
+}
+.item_popup_thong_bao {
+    border-bottom: 1px solid #dddddd;
+    min-height: 50px;
+    padding: 10px 10px;
+}
+.item_popup_thong_bao:last-child {
+    border-bottom: medium none;
+}
+.item_popup_thong_bao .detail_thong_bao {
+    width: 270px;
+}
+.thong_bao_ngoi_sao, .thong_bao_ket_ban, .thong_bao_email{
+	position: relative;
+}
+.popup_thong_bao .ten_thanh_vien_thong_bao {
+    font-size: 14px;
+    font-weight: bold;
+}
+.popup_thong_bao .all_thong_bao{
+    font-size: 12px;
+    padding: 10px 0;
+    text-align: center;
+    text-transform: uppercase;
+	transition: .5s all ease 0s;
+	-webkit-transition: .5s all ease 0s;
+	-webkit-border-radius: 0 0 5px 5px;
+	-moz-border-radius: 0 0 5px 5px;
+	border-radius: 0 0 5px 5px;
+}
+.popup_thong_bao .all_thong_bao a{
+	transition: .5s all ease 0s;
+	-webkit-transition: .5s all ease 0s;
+}
+.popup_thong_bao .all_thong_bao:hover{
+	background: #f1f1f1;
+}
+.popup_thong_bao .all_thong_bao:hover a{
+	color: #3d93e0;
+}
+.popup_thong_bao .all_thong_bao a{
+	display: block;
+}
+.avatar_profile .edit_image {
+    left: 50px;
+    top: 50px;
+}
+.avatar_profile:hover .edit_image{
+	opacity: 1;
+}
+.cover .edit_image {
+    left: 460px;
+    top: 128px;
+}
+.cover:hover .edit_image{
+	opacity: 1;
+}
+.upload_avatar {
+    height: 300px;
+    left: -5px;
+    position: absolute;
+    top: -40px;
+    width: 160px;
+	background: #3e94e0;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+	z-index: 10000;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	display: none;
+}
+.header_upload_avatar {
+    color: #fff;
+    font-weight: bold;
+    height: 35px;
+    line-height: 40px;
+    text-align: left;
+	padding-left: 10px;
+}
+.avatar_chinh_sua {
+	overflow: hidden;
+	position: relative;
+    background: none repeat scroll 0 0 #acacac;
+    height: 150px;
+    margin: 5px;
+    width: 150px;
+}
+.avatar_chinh_sua img{
+	max-width: 150px;
+	max-height: 150px;
+	border: none;
+}
+.luu_avatar {
+    background: none repeat scroll 0 0 #fff;
+    border-radius: 10px;
+    color: #000;
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px auto 0;
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 50px;
+}
+.huong_dan_up_avatar {
+    border-top: 1px solid;
+    color: #fff;
+    font-size: 13px;
+    margin: 10px;
+    padding-top: 5px;
+}
+.close_upload_avatar{
+	cursor: pointer;
+	width: 20px;
+	height: 20px;
+	background: url(../../images/profile/theme/main.png);
+	background-size: 500px 500px;
+	background-position: -109px -133px;
+	display: block;
+	float: right;
+	margin-right: 8px;
+	margin-top: 10px;
+}
+.close_upload_cover{
+	cursor: pointer;
+	width: 20px;
+	height: 20px;
+	background: url(../../images/profile/theme/main.png);
+	background-size: 500px 500px;
+	background-position: -109px -133px;
+	display: block;
+	float: right;
+	margin-right: 17px;
+	margin-top: 14px;
+}
+.avatar_profile.no_box{
+	box-shadow: none;
+}
+.upload_cover {
+	display: none;
+    background: none repeat scroll 0 0 #3d93e0;
+    height: 540px;
+    position: absolute;
+    top: -50px;
+    width: 960px;
+    z-index: 999;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.5);
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+.upload_cover .header_upload_cover {
+    height: 50px;
+}
+.cover_chinh_sua {
+	position: relative;
+	overflow: hidden;
+    background: none repeat scroll 0 0 #CECECE;
+    height: 296px;
+    width: 960px;
+}
+.upload_cover .header_upload_cover {
+    color: #fff;
+    font-weight: bold;
+    height: 50px;
+    line-height: 45px;
+    padding-left: 15px;
+}
+.upload_new_avatar:hover{
+	transform: scale(0.8);
+	-webkit-transform: scale(0.8);
+	-ms-transform: scale(0.8);
+}
+.zoom_in_avatar, .zoom_in_cover{
+	width: 20px;
+	height: 20px;
+	background: url(../../images/profile/theme/main.png);
+	background-size: 500px 500px;
+	background-position: -114px -160px;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	cursor: pointer;
+	transition: .5s all ease 0s;
+	-webkit-transition: .5s all ease 0s;
+}
+.zoom_out_avatar, .zoom_out_cover{
+	width: 20px;
+	height: 20px;
+	background: url(../../images/profile/theme/main.png);
+	background-size: 500px 500px;
+	background-position: -114px -184px;
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+	cursor: pointer;
+	transition: .5s all ease 0s;
+	-webkit-transition: .5s all ease 0s;
+}
+.zoom_in_cover, .zoom_out_cover{
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	background-color: rgba(0,0,0,0.5);
+}
+.zoom_out_avatar:hover, .zoom_in_avatar:hover{
+	opacity: 1;
+}
+.footer_upload_avatar {
+    position: relative;
+}
+.progress_upload_avatar {
+    background: none repeat scroll 0 0 rgba(255, 255, 255, 0.5);
+    height: 4px;
+    left: 5px;
+    position: absolute;
+    top: -10px;
+    width: 150px;
+	display: none;
+}
+.value_progress_upload_avatar {
+    background: none repeat scroll 0 0 rgba(255, 255, 255, 1);
+    height: 4px;
+    width: 0;
+	transition: .5s all ease 0s;
+	-webkit-transition: .5s all ease 0s;
+}
+.list_image_cover .item_image_cover > img {
+    max-width: 95px;
+	max-height: 55px;
+}
+.list_image_cover .item_image_cover {
+	position:relative;
+	background: url(../../images/profile/theme/main.png);
+	background-size: 500px 500px;
+	background-position: -25px -255px;
+    border: 1px solid #fff;
+    float: left;
+    height: 55px;
+    width: 95px;
+	margin-right: 10px;
+	cursor: pointer;
+}
+.list_image_cover .item_image_cover.has_image{
+	background: none;
+	border: 1px solid rgba(0,0,0,0);
+}
+.list_image_cover {
+ 	width: 800px;
+	margin-bottom: 10px;
+}
+.main_content_footer_coover {
+    border-bottom: 1px solid #fff;
+    margin: 10px;
+}
+.luu_cover {
+    background: none repeat scroll 0 0 #fff;
+    -webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+    display: block;
+    font-weight: bold;
+    margin-top: 24px;
+    padding: 7px 12px;
+    text-transform: uppercase;
+}
+.thong_tin_upload_cover{
+	padding: 0 10px;
+}
+.thong_tin_upload_cover > span {
+    color: #fff;
+    display: block;
+    font-size: 12px;
+    line-height: 1.4;
+}
+.delete_image_cover{
+	background: url(../../images/profile/theme/main.png);
+	background-size: 250px 250px;
+	background-position: -52px -64px;
+	border: 1px solid #fff;
+    border-radius: 30px;
+    bottom: 0;
+    cursor: pointer;
+    display: block;
+    height: 15px;
+    position: absolute;
+    right: 0;
+    width: 15px;
+	display: none;
+}
+.item_image_cover.has_image .delete_image_cover{
+	display: block;
+}
+.progress_upload_cover {
+    background: none repeat scroll 0 0 rgba(255, 255, 255, 0.5);
+    height: 4px;
+    left: -1px;
+    position: absolute;
+    top: 56px;
+    width: 97px;
+	display: none;
+}
+.value_progress_upload_cover {
+    background: none repeat scroll 0 0 rgba(255, 255, 255, 1);
+    height: 4px;
+    width: 0;
+	transition: .5s all ease 0s;
+	-webkit-transition: .5s all ease 0s;
+}
+.slide_left_sidebar {
+    margin-bottom: 10px;
+}
+.row_lien_he {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+.tieu_de_row_lien_he {
+    color: #fff;
+    font-size: 12px;
+    line-height: 1.4;
+}
+.tieu_de_row_gioi_thieu{
+	color: #fff;
+    font-size: 14px;
+    line-height: 1.4;
+}
+.noi_dung_row_lien_he {
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 1.4;
+}
+.noi_dung_row_gioi_thieu {
+    background: none repeat scroll 0 0 #f3f3f3;
+    border-radius: 5px;
+    font-size: 14px;
+    padding: 10px;
+	position: relative;
+	margin-top: 10px;
+}
+.noi_dung_row_gioi_thieu:before{
+	width: 32px;
+	height:34px;
+	background: url(../../images/profile/theme/main.png);
+	background-size: 500px 500px;
+	background-position: -160px -240px;
+	left: 80px;
+	top: -14px;
+	position: absolute;
+	content: " ";
+}
+.left_control_tab_tin_moi #tabs li.active:after {
+    background: none repeat scroll 0 0 #3d93e0;
+    bottom: 0;
+    content: " ";
+    display: block;
+    height: 5px;
+    position: absolute;
+    right: -5px;
+    width: 5px;
+}
+.left_control_tab_tin_moi #tabs li.active a:after {
+    background: none repeat scroll 0 0 #F6F6F6;
+    border-radius: 10px;
+    bottom: 0;
+    content: " ";
+    height: 10px;
+    position: absolute;
+    right: -10px;
+    width: 10px;
+    z-index: 11;
+}
+.left_control_tab_tin_moi #tabs li.active:before {
+    background: none repeat scroll 0 0 #3d93e0;
+    bottom: 0;
+    content: " ";
+    display: block;
+    height: 5px;
+    position: absolute;
+    left: -5px;
+    width: 5px;
+}
+.left_control_tab_tin_moi #tabs li.active a:before {
+    background: none repeat scroll 0 0 #F6F6F6;
+    border-radius: 10px;
+    bottom: 0;
+    content: " ";
+    height: 10px;
+    position: absolute;
+    left: -10px;
+    width: 10px;
+    z-index: 11;
+}
+.list_image_cover .item_image_cover.selected {
+    border: 1px solid red;
+}
+textarea.autosize{
+	padding-bottom: 0 !important;
+	resize: none;
+	height: 26px;
+}
+.item_image_video_status {
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    float: left;
+    height: 52px;
+    margin-right: 5px;
+    margin-top: 5px;
+    padding: 0;
+    width: 52px;
+	overflow: hidden;
+	position: relative;
+}
+.item_image_video_status:nth-child(5n) {
+    margin-right: 0;
+}
+.item_image_video_status img {
+    height: 100%;
+	min-height: 100%;
+}
+.status_up_image {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.5);
+    height: 80%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 52px;
+}

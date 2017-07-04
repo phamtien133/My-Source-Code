@@ -1,0 +1,12 @@
+C:\Users\Admin\Downloads\QLHS (2)\QLHS\QLHS\GIAOVIEN\bin\Debug\GIAOVIEN.exe.config
+C:\Users\Admin\Downloads\QLHS (2)\QLHS\QLHS\GIAOVIEN\bin\Debug\GIAOVIEN.exe
+C:\Users\Admin\Downloads\QLHS (2)\QLHS\QLHS\GIAOVIEN\bin\Debug\GIAOVIEN.pdb
+C:\Users\Admin\Downloads\QLHS (2)\QLHS\QLHS\GIAOVIEN\obj\Debug\GIAOVIEN.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Downloads\QLHS (2)\QLHS\QLHS\GIAOVIEN\obj\Debug\GIAOVIEN.frmHanhKiem.resources
+C:\Users\Admin\Downloads\QLHS (2)\QLHS\QLHS\GIAOVIEN\obj\Debug\GIAOVIEN.frmHanhKiemTC.resources
+C:\Users\Admin\Downloads\QLHS (2)\QLHS\QLHS\GIAOVIEN\obj\Debug\GIAOVIEN.frmLapBaoCao.resources
+C:\Users\Admin\Downloads\QLHS (2)\QLHS\QLHS\GIAOVIEN\obj\Debug\GIAOVIEN.frmMainGV.resources
+C:\Users\Admin\Downloads\QLHS (2)\QLHS\QLHS\GIAOVIEN\obj\Debug\GIAOVIEN.Properties.Resources.resources
+C:\Users\Admin\Downloads\QLHS (2)\QLHS\QLHS\GIAOVIEN\obj\Debug\GIAOVIEN.csproj.GenerateResource.Cache
+C:\Users\Admin\Downloads\QLHS (2)\QLHS\QLHS\GIAOVIEN\obj\Debug\GIAOVIEN.exe
+C:\Users\Admin\Downloads\QLHS (2)\QLHS\QLHS\GIAOVIEN\obj\Debug\GIAOVIEN.pdb

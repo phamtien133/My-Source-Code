@@ -1,0 +1,123 @@
+.width_330{
+	width: 330px;
+}
+.width_630{
+	width: 630px;
+}
+.height_50{
+	height: 50px;
+}
+.opacity_0{
+	opacity: 0;
+}
+.wrap{
+	width: 960px;
+	margin: 0 auto;
+}
+.nav_fade_slide .item_nave_fade_slide{
+	height: 8px;
+	width: 8px;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	border: 2px solid rgba(0,0,0,0.5);
+	background: #FFF;
+	margin-right:10px;
+	display: inline-block;
+	cursor: pointer;
+}
+.nav_fade_slide .item_nave_fade_slide.active{
+	border-color: #3d93e0;
+}
+.round_edit_image{
+	
+}
+.edit_image {
+    bottom: auto;
+    display: block;
+    height: 40px;
+    width: 40px;
+	background: url(../../images/profile/theme/main.png);
+	background-size: 500px 500px;
+	background-position: -10px -180px; 
+	opacity: 1;
+	transition: .5s all ease 0s;
+	-webkit-transition: .5s all ease 0s;
+}
+.upload_new_avatar {
+    bottom: auto;
+    display: block;
+    height: 40px;
+    width: 40px;
+	background: url(../../images/profile/theme/main.png);
+	background-size: 500px 500px;
+	background-position: -60px -180px; 
+	opacity: 1;
+	cursor: pointer;
+	position: absolute;
+	top: 110px;
+	transition: .5s all ease 0s;
+	-webkit-transition: .5s all ease 0s;
+}
+.round_edit_image {
+	transition: .5s all ease 0s;
+	-webkit-transition: .5s all ease 0s;
+    height: 40px;
+    position: absolute;
+ 	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	width: 140px;
+	opacity: 0;
+}
+.avatar_profile:hover .round_edit_image{
+	opacity: 1;
+}
+.round_edit_image .text_edit_image {
+    color: #fff;
+    display: block;
+    font-size: 11px;
+    position: absolute;
+    right: 10px;
+    top: 14px;
+	opacity: 0;
+	transition: .5s all ease 0s;
+	-webkit-transition: .5s all ease 0s;
+}
+.avatar_profile .round_edit_image {
+    left: 5px;
+    top: 105px;
+}
+.round_edit_image:hover{
+	background: none repeat scroll 0 0 rgba(0, 0, 0, 0.75);
+}
+.round_edit_image:hover .edit_image {
+    margin-left: 0;
+    margin-top: -2px;
+    transform: scale(0.6);
+	-webkit-transform: scale(0.6);
+	-ms-transform: scale(0.6);
+}
+.link_edit_image {
+    height: 100%;
+    left: 0;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.round_edit_image:hover .text_edit_image{
+	opacity: 1;
+}
+.cover .round_edit_image {
+    left: 180px;
+    top: 250px;
+    z-index: 999;
+}
+.cover:hover .round_edit_image{
+	opacity: 1;
+}
+.upload_cover .cover_chinh_sua > img {
+    height: 296px;
+    width: 960px;
+}

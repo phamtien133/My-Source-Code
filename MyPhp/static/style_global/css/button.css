@@ -1,0 +1,311 @@
+.width50
+{
+	width:50%;
+}
+#div_chat_noi_dung
+{
+	margin:0;
+	padding:6px;
+	overflow:auto;
+	height:500px;
+	word-wrap:break-word;
+}
+
+		.pagination
+{
+	border-top: 1px solid #E6E7E8;
+	padding: 15px 5px 5px;
+	text-align: center;
+	height:20px;
+}
+.pagination a
+{
+	margin: 0 5px 0 0;
+    padding: 3px 6px;
+	color: #0078CC;
+	border-radius: 4px 4px 4px 4px;
+}
+
+.pagination a:hover
+{
+	font-weight:bold;
+	color: #004A95;
+}
+    
+.number
+{
+	border: 1px solid #DDDDDD;
+    padding: 7px 10px;
+    background: #FFF;
+}
+.pagination a.current {
+	
+	background: url("/styles/web/global/images/bg-button-blue.gif") repeat-x scroll left top #004A95 !important;
+    border-color: #004994 !important;
+	color: #FFFFFF;
+}
+		.item
+		{
+			margin-bottom: 0;
+			border:#333 1px dotted;;
+			padding:0 4px 0 4px;
+			margin:0 2px 0 2px;
+		}
+		.choose
+		{
+			background:#CF6;
+		}
+		.item_a
+		{
+			padding-left:5px;
+		}
+.buttonarea{border:1px solid #E6E6E6;margin:0 0 2em .2em;padding:15px;}.round{cursor:pointer;color:#CCC;text-decoration:none;font-family:Verdana,Geneva,sans-serif;line-height:25px;background-repeat:no-repeat;background-position:right top;padding-right:15px;vertical-align:middle;display:inline-block;}.round a{color:#CCC!important;text-decoration:none;}.round span{background-repeat:no-repeat;background-position:left top;height:29px;display:inline-block;padding-left:15px;}button{border:0;border:none;background:transparent;width:auto;overflow:visible;white-space:nowrap;padding:0 2px;cursor:pointer;}button:hover .round{background-position:right bottom;color:#fff;}button:hover .round span{background-position:left bottom;}.round:hover{background-position:right bottom;color:#fff;}.round:hover span{background-position:left bottom;}
+.round {
+	background-image:url("../images/button.png")}
+	
+.round span { 
+	background-image:url("../images/button.png") }
+
+.de_tai_icon
+{
+	float:left;
+	margin:0px 0px 15px 10px;
+	padding:5px;
+	
+	border:dotted #666 1px;
+	text-align:center;
+	min-height:70px;
+	width:100px;
+	background:#FFF;
+}
+.de_tai_icon:hover
+{
+	color:#fff;
+	background:#9CF;
+}
+.de_tai_icon a
+{
+	color:#35B339;
+	text-decoration:none;
+}
+.de_tai_icon a:hover
+{
+	color:#fff;
+}
+.de_tai_icon a
+{
+	text-decoration:none;
+}
+.de_tai_icon img
+{
+	padding-bottom:5px;
+}
+.bai_viet_khoang_cach {
+	padding-left:5px;
+}
+.error{
+	padding:5px;
+	color:#C00;
+	font-weight:bold;
+	border:#333 dotted 2px;
+}
+.tags{
+	padding-left:5px;
+}
+.loi_binh_chi_tiet
+{
+	clear:both;border-bottom:dashed #F90 4px;padding-top:5px;min-height:130px;
+}
+.danh_sach_chu_muc_con{
+	font-size:90%;
+	border-bottom:dotted 1px #666;
+}
+.chu_muc_con{
+	padding-left:15px;
+}
+h3.tieu_de_bai_viet {
+	font-weight:bold;
+	font-size:160%;
+}
+img
+{
+	max-width:600px;
+}
+.chon_trang
+				{
+					font-size:110%;
+					margin-bottom: 0;
+					padding: 3px 6px 3px 6px;
+					text-align:right;
+				}
+				.chon_trang .da_chon
+				{
+					color:#666;
+				}
+				.chon_trang a{
+					border:#808185 1px solid;
+				}
+.right {
+	float:right;
+}
+.left{float:left;}
+.clear{clear:both;}
+#div_sinh_khoa_tu_dong a
+{
+	font-size:15px;
+	padding:2px 5px 2px 5px;
+	height:20px;
+	background:#333;
+	color:#FC0;
+	text-decoration:none;
+}
+img.img-border{background:#FFFFFF;border:1px solid #E2E2E2;padding:5px;}
+
+.tool-tip { color: #000; width: 550px; z-index: 13000;background:#ffc; }
+ 
+.tool-title {
+	font-weight: bold;
+	font-size: 120%;
+	margin: 0;
+	color:#069;
+	padding: 8px 8px 4px;
+}
+.tool-tip img
+{
+	float:right;
+	background:#FFFFFF;
+	padding:2px;
+	border:2px solid #E2E2E2;
+	width:200px;
+}
+li.top {
+	cursor:pointer;
+}
+        /**********************\
+         * MOZILLA FIREFOX STYLE
+        \**********************/
+        /*pre{font-family:Tahoma;font-size:px;}*/
+        .tagName{color:purple;}
+        .tagAttribute{color:red;}
+        .tagValue{color:blue;}
+       .HTMLComment{font-style:italic;color:green;}
+
+	/* CSS Document */
+
+.bbcode_container {
+	margin:20px;
+	margin-top:5px;
+	display:block;
+}
+
+.bbcode_container .bbcode_desc {
+	margin-bottom:2px;
+	font-size:11px;
+}
+
+.bbcode_container div.bbcode_code,
+.bbcode_container pre.bbcode_code {
+	margin:0;
+	padding:6px;
+	border:1px inset;
+	text-align:left;
+	overflow:scroll;
+	direction:ltr;
+	background:#f2f6f8  repeat-x;
+	/*height:;*/
+	font-size:12px;
+}
+
+.bbcode_container code.bbcode_code {
+	margin:0;
+	text-align:left;
+	direction:ltr;
+	font-size:12px;
+}
+
+.bbcode_container code.bbcode_code code {
+	white-space:nowrap;
+}
+
+.bbcode_container div.bbcode_quote {
+	margin:0 10px;
+	margin-bottom: 10px;
+	
+	
+	background: #f2f6f8 none   ;
+	
+	border: 1px solid #417394;
+	font: italic  normal 13px Tahoma,Calibri,Verdana,Geneva,sans-serif;
+	position: relative;
+	top: 0;
+}
+
+.bbcode_container .bbcode_quote_container {
+	background: transparent url(/images/bbcode/quote-left.png) no-repeat  left;
+	display:block;
+	width: 9px;
+	height: 13px;
+	position: absolute;
+	top: 5px;
+	left: -9px;
+}
+
+.bbcode_quote div.quote_container {
+	
+	
+	padding: 5px 10px 5px 10px;
+}
+
+.bbcode_quote .bbcode_postedby img {
+	position: relative;
+	top: 1px;
+}
+
+.bbcode_container div.bbcode_quote.printable {
+	background:none;
+	border:none;
+}
+
+.bbcode_container div.bbcode_quote div.message {
+	/*font-style:italic;*/
+	padding:8px 0px;
+}
+
+/* fix the bug where li's in quotes are floated */
+.bbcode_container div.bbcode_quote div.message ol>li, .bbcode_container div.bbcode_quote div.message ul>li{
+	float: none;
+}
+
+/* from components.css */
+.bbcode_postedby {
+	font:   normal 12px Tahoma,Calibri,Verdana,Geneva,sans-serif;
+}
+
+.bbcode_postedby img {
+	margin:0;
+} 
+
+/* ------------- */
+/* ------------- */
+#loi_binh_ho_va_ten, #loi_binh_email, #loi_binh_dien_thoai, #loi_binh_dia_chi, #loi_binh_tieu_de {
+	border:#CCC solid 1px;
+	padding:2px 2px 2px 50px;
+	width:93%;
+	height:18px;
+	margin-bottom:5px;
+}
+#loi_binh_ho_va_ten {
+	background:url(/images/icons/loi_binh_ho_va_ten.png) 5px no-repeat;
+}
+#loi_binh_email {
+	background:url(/images/icons/loi_binh_email.png) 5px no-repeat;
+}
+#loi_binh_dien_thoai {
+	background:url(/images/icons/loi_binh_so_dien_thoai.png) 5px no-repeat;
+}
+#loi_binh_dia_chi {
+	background:url(/images/icons/loi_binh_dia_chi.png) 5px no-repeat;
+}
+#loi_binh_tieu_de {
+	background:url(/images/icons/loi_binh_tieu_de.png) 5px no-repeat;
+}

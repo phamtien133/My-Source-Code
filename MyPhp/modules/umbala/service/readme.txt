@@ -1,0 +1,1 @@
+﻿mới viết xong hình thứ 1

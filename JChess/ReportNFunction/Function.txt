@@ -1,0 +1,4 @@
+﻿- Game Cờ vua (đúng luật chơi của cờ vua)
+	    + Hỗ trợ tối đa 02 người chơi qua mạng LAN (Internet).
+	    + Có chức năng cho máy đóng vai trò người chơi.
+	    + Giao diện đồ họa

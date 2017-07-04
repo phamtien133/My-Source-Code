@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Jun 5, 2017 12:08:08 PM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="pojos.TbLogin" table="tb_login" catalog="product_management" optimistic-lock="version">
+        <id name="loginId" type="java.lang.Integer">
+            <column name="login_id" />
+            <generator class="identity" />
+        </id>
+        <property name="loginUser" type="string">
+            <column name="login_user" length="40" not-null="true" />
+        </property>
+        <property name="loginPassword" type="string">
+            <column name="login_password" length="40" not-null="true" />
+        </property>
+        <property name="loginRole" type="int">
+            <column name="login_role" not-null="true" />
+        </property>
+    </class>
+</hibernate-mapping>

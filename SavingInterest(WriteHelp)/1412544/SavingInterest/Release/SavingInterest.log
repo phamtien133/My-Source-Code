@@ -1,0 +1,9 @@
+﻿  stdafx.cpp
+  SavingInterest.cpp
+SavingInterest.cpp(432): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+SavingInterest.cpp(540): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  Generating code
+  All 3 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  SavingInterest.vcxproj -> D:\Documents\K2014 nam 3\Lap Trinh Windows\BT Tuan3_App Cai tien\1412544\Release\SavingInterest.exe
+  SavingInterest.vcxproj -> D:\Documents\K2014 nam 3\Lap Trinh Windows\BT Tuan3_App Cai tien\1412544\Release\SavingInterest.pdb (Full PDB)

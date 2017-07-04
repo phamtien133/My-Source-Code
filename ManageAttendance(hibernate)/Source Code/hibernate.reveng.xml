@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-reverse-engineering PUBLIC "-//Hibernate/Hibernate Reverse Engineering DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-reverse-engineering-3.0.dtd">
+<hibernate-reverse-engineering>
+  <schema-selection match-catalog="attendance"/>
+  <table-filter match-name="tb_students"/>
+  <table-filter match-name="tb_subjects"/>
+  <table-filter match-name="tb_teachers"/>
+  <table-filter match-name="tb_classrooms"/>
+  <table-filter match-name="tb_schedule"/>
+  <table-filter match-name="tb_subjects_students"/>
+  <table-filter match-name="tb_login"/>
+</hibernate-reverse-engineering>

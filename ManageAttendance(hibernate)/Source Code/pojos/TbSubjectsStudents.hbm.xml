@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Apr 12, 2017 3:51:30 PM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="pojos.TbSubjectsStudents" table="tb_subjects_students" catalog="attendance" optimistic-lock="version">
+        <id name="subjectsStudentsId" type="java.lang.Integer">
+            <column name="subjects_students_id" />
+            <generator class="identity" />
+        </id>
+        <many-to-one name="tbStudents" class="pojos.TbStudents" fetch="select">
+            <column name="subjects_students_stuid" length="4" not-null="true" />
+        </many-to-one>
+        <many-to-one name="tbSubjects" class="pojos.TbSubjects" fetch="select">
+            <column name="subjects_students_subid" length="4" not-null="true" />
+        </many-to-one>
+        <property name="week1" type="int">
+            <column name="week1" not-null="true" />
+        </property>
+        <property name="week2" type="int">
+            <column name="week2" not-null="true" />
+        </property>
+        <property name="week3" type="int">
+            <column name="week3" not-null="true" />
+        </property>
+        <property name="week4" type="int">
+            <column name="week4" not-null="true" />
+        </property>
+        <property name="week5" type="int">
+            <column name="week5" not-null="true" />
+        </property>
+        <property name="week6" type="int">
+            <column name="week6" not-null="true" />
+        </property>
+        <property name="week7" type="int">
+            <column name="week7" not-null="true" />
+        </property>
+        <property name="week8" type="int">
+            <column name="week8" not-null="true" />
+        </property>
+        <property name="week9" type="int">
+            <column name="week9" not-null="true" />
+        </property>
+        <property name="week10" type="int">
+            <column name="week10" not-null="true" />
+        </property>
+        <property name="week11" type="int">
+            <column name="week11" not-null="true" />
+        </property>
+        <property name="week12" type="int">
+            <column name="week12" not-null="true" />
+        </property>
+        <property name="week13" type="int">
+            <column name="week13" not-null="true" />
+        </property>
+        <property name="week14" type="int">
+            <column name="week14" not-null="true" />
+        </property>
+        <property name="week15" type="int">
+            <column name="week15" not-null="true" />
+        </property>
+    </class>
+</hibernate-mapping>

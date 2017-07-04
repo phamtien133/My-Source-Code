@@ -1,0 +1,432 @@
+/*  
+    BORDER BOTTOM EDEDED
+    BACKGROUND: F6F6F6;
+*/
+/*  border radius */
+/*  Màu cơ bản */
+/*  Clear after */
+.mxClrAft:after {
+  display: block;
+  width: 0;
+  height: 0;
+  visibility: hide;
+  clear: both;
+  content: " ";
+}
+.bgs {
+  background-image: url(../images/theme/main.png);
+  background-size: 500px 500px;
+  background-repeat: no-repeat;
+}
+/*  Class overlay chung, dùng để thêm vào selector nào cần hiệu ứng khi rê chuột vào */
+/*  Css transform scale*/
+.mxGray {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  filter: gray;
+  filter: url("data:image/svg+xml;utf8,<svg version='1.1' xmlns='http://www.w3.org/2000/svg' height='0'><filter id='greyscale'><feColorMatrix type='matrix' values='0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0' /></filter></svg>#greyscale");
+}
+.mxColor {
+  -webkit-filter: grayscale(0);
+  filter: grayscale(0);
+  filter: none;
+}
+.page-warehouse .statistic-bar {
+  width: 1024px;
+}
+.page-warehouse input[type="text"] {
+  width: 100%;
+  height: 30px;
+  line-height: 30px;
+  border: 1px solid #DCDCDC;
+  padding: 0px 10px;
+  border-radius: 3px;
+  font-size: 13px;
+}
+.page-warehouse select {
+  width: 100%;
+  height: 30px;
+  line-height: 30px ;
+}
+.page-warehouse select option {
+  line-height: 30px;
+}
+.page-warehouse .icon-wh {
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-transition: all 500ms ease 0s;
+  -o-transition: all 500ms ease 0s;
+  transition: all 500ms ease 0s;
+  width: 30px;
+  text-align: center;
+  line-height: 30px;
+  cursor: pointer;
+}
+.page-warehouse .icon-wh.fa-trash:hover {
+  background: #f21848;
+  color: #fff;
+}
+.page-warehouse .icon-wh.fa-check {
+  color: #00cc00;
+}
+.page-warehouse .icon-wh.fa-check:hover {
+  background: #00cc00;
+  color: #fff;
+}
+.page-warehouse .icon-wh.fa-close {
+  color: #f21848;
+}
+.page-warehouse .icon-wh.fa-close:hover {
+  background: #f21848;
+  color: #fff;
+}
+.page-warehouse .icon-wh.fa-eye:hover {
+  background: #ff5722;
+  color: #fff;
+}
+.page-warehouse .icon-wh.fa-pencil:hover {
+  background: #00bcd4;
+  color: #fff;
+}
+.page-warehouse .icon-wh.fa-desktop:hover {
+  background: #00bcd4;
+  color: #fff;
+}
+.page-warehouse .wh-pagi {
+  text-align: center;
+  display: block;
+}
+.page-warehouse .wh-pagi .item-wh-pagi {
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -webkit-transition: all 500ms ease 0s;
+  -o-transition: all 500ms ease 0s;
+  transition: all 500ms ease 0s;
+  cursor: pointer;
+  display: inline-block;
+  line-height: 30px;
+  padding: 0 10px;
+  font-family: HelveticaNeue-Medium;
+  color: #666;
+}
+.page-warehouse .wh-pagi .item-wh-pagi:hover {
+  background: #f0f0f0;
+}
+.page-warehouse .wh-pagi .item-wh-pagi.atv {
+  color: #00bcd4;
+}
+.page-warehouse .border-dash {
+  -webkit-transition: all 500ms ease 0s;
+  -o-transition: all 500ms ease 0s;
+  transition: all 500ms ease 0s;
+  border: 1px dashed #e9e9e9;
+  width: 100%;
+  line-height: 30px;
+  padding: 10px;
+  font-size: 14px;
+  text-align: center;
+  font-family: HelveticaNeue-Medium;
+  cursor: pointer;
+}
+.page-warehouse .border-dash > * {
+  line-height: 30px;
+  color: #666;
+  font-size: 14px;
+}
+.page-warehouse .border-dash .fa {
+  -webkit-transition: all 500ms ease 0s;
+  -o-transition: all 500ms ease 0s;
+  transition: all 500ms ease 0s;
+  color: #00bcd4;
+}
+.page-warehouse .border-dash:hover {
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border: 1px solid #fff;
+  background: #00bcd4;
+  color: #fff;
+}
+.page-warehouse .border-dash:hover .fa {
+  color: #fff;
+}
+.table-warehouse .box-title .col-wh-1,
+.table-warehouse .box-title .col-wh-2,
+.table-warehouse .box-title .col-wh-3,
+.table-warehouse .box-title .col-wh-4,
+.table-warehouse .box-title .col-wh-5,
+.table-warehouse .box-title .col-wh-6,
+.table-warehouse .box-title .col-wh-7,
+.table-warehouse .box-title .col-wh-8,
+.table-warehouse .box-title .col-wh-9 {
+  font-size: 14px;
+  font-family: HelveticaNeue-Medium;
+  color: #444;
+}
+.table-warehouse .box-inner .col-wh-1,
+.table-warehouse .box-inner .col-wh-2,
+.table-warehouse .box-inner .col-wh-3,
+.table-warehouse .box-inner .col-wh-4,
+.table-warehouse .box-inner .col-wh-5,
+.table-warehouse .box-inner .col-wh-6,
+.table-warehouse .box-inner .col-wh-7,
+.table-warehouse .box-inner .col-wh-8,
+.table-warehouse .box-inner .col-wh-9 {
+  font-size: 14px;
+  font-family: HelveticaNeue;
+  color: #888;
+}
+.table-warehouse .col-wh-1,
+.table-warehouse .col-wh-2,
+.table-warehouse .col-wh-3,
+.table-warehouse .col-wh-4,
+.table-warehouse .col-wh-5,
+.table-warehouse .col-wh-6,
+.table-warehouse .col-wh-7,
+.table-warehouse .col-wh-8,
+.table-warehouse .col-wh-9,
+.table-warehouse .col-wh-10 {
+  float: left;
+}
+.table-warehouse.table-warehouse-1 .col-wh-1 {
+  width: 100px;
+  padding-left: 20px;
+}
+.table-warehouse.table-warehouse-1 .col-wh-2 {
+  width: 160px;
+}
+.table-warehouse.table-warehouse-1 .col-wh-3 {
+  width: 150px;
+}
+.table-warehouse.table-warehouse-1 .col-wh-4 {
+  width: 240px;
+}
+.table-warehouse.table-warehouse-1 .col-wh-5 {
+  width: 160px;
+}
+.table-warehouse.table-warehouse-1 .col-wh-6 {
+  width: 160px;
+}
+.table-warehouse.table-warehouse-1 .col-wh-7 {
+  width: 50px;
+}
+.table-warehouse.table-warehouse-3 .box-title {
+  border-bottom: 1px solid #c0c0c0;
+}
+.table-warehouse.table-warehouse-3 .box-title .col-wh-1,
+.table-warehouse.table-warehouse-3 .box-title .col-wh-2,
+.table-warehouse.table-warehouse-3 .box-title .col-wh-21,
+.table-warehouse.table-warehouse-3 .box-title .col-wh-3,
+.table-warehouse.table-warehouse-3 .box-title .col-wh-4,
+.table-warehouse.table-warehouse-3 .box-title .col-wh-5,
+.table-warehouse.table-warehouse-3 .box-title .col-wh-51,
+.table-warehouse.table-warehouse-3 .box-title .col-wh-52 {
+  border-right: 1px solid #c0c0c0;
+  text-align: center;
+}
+.table-warehouse.table-warehouse-3 .box-title .col-wh-20,
+.table-warehouse.table-warehouse-3 .box-title .col-wh-50 {
+  height: 26px;
+  line-height: 26px;
+  display: block;
+  font-family: HelveticaNeue-Medium;
+  width: 100%;
+  border-bottom: 1px solid #c0c0c0;
+}
+.table-warehouse.table-warehouse-3 .box-title .col-wh-21,
+.table-warehouse.table-warehouse-3 .box-title .col-wh-22 {
+  float: left;
+  width: 50%;
+  height: 25px;
+  line-height: 25px;
+  font-family: HelveticaNeue-Medium;
+  box-sizing: border-box;
+}
+.table-warehouse.table-warehouse-3 .box-title .col-wh-51,
+.table-warehouse.table-warehouse-3 .box-title .col-wh-52,
+.table-warehouse.table-warehouse-3 .box-title .col-wh-53 {
+  float: left;
+  width: 33.3%;
+  height: 25px;
+  line-height: 25px;
+  font-family: HelveticaNeue-Medium;
+  box-sizing: border-box;
+}
+.table-warehouse.table-warehouse-3 .box-inner .col-wh-21,
+.table-warehouse.table-warehouse-3 .box-inner .col-wh-22 {
+  width: 50%;
+  float: left;
+  display: block;
+  text-align: center;
+}
+.table-warehouse.table-warehouse-3 .box-inner .col-wh-3 {
+  text-align: left;
+  padding: 0 10px;
+}
+.table-warehouse.table-warehouse-3 .box-inner .col-wh-4 {
+  text-align: center;
+}
+.table-warehouse.table-warehouse-3 .box-inner .col-wh-51,
+.table-warehouse.table-warehouse-3 .box-inner .col-wh-52,
+.table-warehouse.table-warehouse-3 .box-inner .col-wh-53 {
+  width: 33.3%;
+  float: left;
+  display: block;
+  text-align: center;
+}
+.table-warehouse.table-warehouse-3 .col-wh-1 {
+  width: 60px;
+  text-align: center;
+}
+.table-warehouse.table-warehouse-3 .col-wh-2 {
+  width: 200px;
+}
+.table-warehouse.table-warehouse-3 .col-wh-3 {
+  width: 220px;
+}
+.table-warehouse.table-warehouse-3 .col-wh-4 {
+  width: 130px;
+}
+.table-warehouse.table-warehouse-3 .col-wh-5 {
+  width: 225px;
+}
+.table-warehouse.table-warehouse-3 .col-wh-6 {
+  width: 180px;
+  text-align: center;
+}
+.table-warehouse.table-warehouse-5 .col-wh-1 {
+  width: 70px;
+  padding-left: 10px;
+}
+.table-warehouse.table-warehouse-5 .col-wh-2 {
+  width: 120px;
+}
+.table-warehouse.table-warehouse-5 .col-wh-3 {
+  width: 170px;
+}
+.table-warehouse.table-warehouse-5 .col-wh-4 {
+  width: 100px;
+}
+.table-warehouse.table-warehouse-5 .col-wh-5 {
+  width: 130px;
+}
+.table-warehouse.table-warehouse-5 .col-wh-6 {
+  width: 130px;
+}
+.table-warehouse.table-warehouse-5 .col-wh-7 {
+  width: 130px;
+}
+.table-warehouse.table-warehouse-5 .col-wh-8 {
+  width: 130px;
+}
+.table-warehouse.table-warehouse-6 .col-wh-1 {
+  width: 70px;
+  padding-left: 10px;
+}
+.table-warehouse.table-warehouse-6 .col-wh-2 {
+  width: 90px;
+}
+.table-warehouse.table-warehouse-6 .col-wh-3 {
+  width: 200px;
+}
+.table-warehouse.table-warehouse-6 .col-wh-4 {
+  width: 90px;
+}
+.table-warehouse.table-warehouse-6 .col-wh-5 {
+  width: 90px;
+}
+.table-warehouse.table-warehouse-6 .col-wh-6 {
+  width: 50px;
+}
+.table-warehouse.table-warehouse-6 .col-wh-7 {
+  width: 110px;
+}
+.table-warehouse.table-warehouse-6 .col-wh-8 {
+  width: 150px;
+}
+.table-warehouse.table-warehouse-8 .col-wh-1 {
+  width: 70px;
+  padding-left: 10px;
+}
+.table-warehouse.table-warehouse-8 .col-wh-2 {
+  width: 90px;
+}
+.table-warehouse.table-warehouse-8 .col-wh-3 {
+  width: 140px;
+}
+.table-warehouse.table-warehouse-8 .col-wh-4 {
+  width: 85px;
+}
+.table-warehouse.table-warehouse-8 .col-wh-5 {
+  width: 85px;
+}
+.table-warehouse.table-warehouse-8 .col-wh-6 {
+  width: 50px;
+}
+.table-warehouse.table-warehouse-8 .col-wh-7 {
+  width: 105px;
+}
+.table-warehouse.table-warehouse-8 .col-wh-8 {
+  width: 105px;
+}
+.table-warehouse.table-warehouse-9 .col-wh-1 {
+  width: 70px;
+  padding-left: 10px;
+}
+.table-warehouse.table-warehouse-9 .col-wh-2 {
+  width: 120px;
+}
+.table-warehouse.table-warehouse-9 .col-wh-3 {
+  width: 180px;
+}
+.table-warehouse.table-warehouse-9 .col-wh-4 {
+  width: 85px;
+}
+.table-warehouse.table-warehouse-9 .col-wh-5 {
+  width: 80px;
+}
+.table-warehouse.table-warehouse-9 .col-wh-6 {
+  width: 110px;
+}
+.table-warehouse.table-warehouse-9 .col-wh-7 {
+  width: 80px;
+}
+.table-warehouse.table-warehouse-9 .col-wh-8 {
+  width: 35px;
+}
+.table-warehouse.table-warehouse-13 * {
+  font-size: 12px !important;
+}
+.table-warehouse.table-warehouse-13 .col-wh-1 {
+  width: 70px;
+  padding-left: 10px;
+}
+.table-warehouse.table-warehouse-13 .col-wh-2 {
+  width: 95px;
+}
+.table-warehouse.table-warehouse-13 .col-wh-3 {
+  width: 100px;
+}
+.table-warehouse.table-warehouse-13 .col-wh-4 {
+  width: 60px;
+}
+.table-warehouse.table-warehouse-13 .col-wh-5 {
+  width: 50px;
+}
+.table-warehouse.table-warehouse-13 .col-wh-6 {
+  width: 100px;
+}
+.table-warehouse.table-warehouse-13 .col-wh-7 {
+  width: 95px;
+}
+.table-warehouse.table-warehouse-13 .col-wh-8 {
+  width: 100px;
+}
+.table-warehouse.table-warehouse-13 .col-wh-9 {
+  width: 60px;
+}
+.table-warehouse.table-warehouse-13 .col-wh-10 {
+  width: 35px;
+}

@@ -1,0 +1,92 @@
+{{#section 'title'}}
+    Thông tin cá nhân
+{{/section}}
+{{#if showError }}
+    <div class="alert alert-warning alert-dismissible" role="alert">
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <strong>Warning!</strong> {{ errorMsg }}
+    </div>
+{{/if}}
+<form class="form-horizontal" method="get" action="/account/editProfile" id="frmProfile">
+    <div class="form-group">
+        <label for="txtUsername" class="col-sm-2 control-label">Họ tên</label>
+        <div class="col-sm-4">
+            <input type="text" class="form-control" id="txtHoTen" placeholder="Họ tên" name="hoten" value="{{user.hoten}}" readonly>
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="txtPWD" class="col-sm-2 control-label">Mật khẩu</label>
+        <div class="col-sm-4">
+            <input type="password" class="form-control" id="txtmatkhau" placeholder="Mật khẩu" name="matkhau" value="********" readonly>
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="txtName" class="col-sm-2 control-label">Địa chỉ</label>
+        <div class="col-sm-4">
+            <input type="text" class="form-control" id="txtName" placeholder="Địa chỉ" name="diachi" value="{{user.diachi}}" readonly>
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="txtEmail" class="col-sm-2 control-label">Email</label>
+        <div class="col-sm-4">
+            <input type="text" class="form-control" id="txtEmail" placeholder="Email" name="email" value="{{user.email}}" readonly>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label for="txtEmail" class="col-sm-2 control-label">Loại khách hàng</label>
+        <div class="col-sm-4">
+            <input type="text" class="form-control" id="txtEmail" placeholder="Loại khách hàng" name="loaikhachhang" value="{{user.loaikhachhang}}" readonly>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label for="txtEmail" class="col-sm-2 control-label">Điểm đánh giá</label>
+        <div class="col-sm-4">
+            <input type="text" class="form-control" id="txtEmail" placeholder="Điểm đánh giá" name="diemdanhgia" value="{{user.diemdanhgia}}%" readonly>
+        </div>
+    </div>
+
+    <div class="form-group col-sm-10">
+        <table class="table">
+            <thead>
+              <tr>
+                <th>Họ tên</th>
+                <th>Email</th>
+                <th>Nội dung</th>
+                <th>Điểm đánh giá</th>
+              </tr>
+            </thead>
+            <tbody>
+            {{#each ratings }}
+                <tr>
+                <td>{{hoten}}</td>
+                <td>{{email}}</td>
+                <td>{{noidung}}</td>
+                <td>{{diemdanhgia}}</td>
+              </tr>
+            {{/each}}
+            </tbody>
+        </table>
+    </div>
+
+    <div class="form-group">
+        <div class="col-sm-10 text-center">
+            <button style="width:26%"  type="submit" class="btn btn-success" name="btnEditProfile">
+            <i class="fa fa-check"></i>
+            Chỉnh sửa
+            </button>
+        </div>
+    </div>
+</form>
+{{#if layoutModels.isSeller}}
+{{else}}
+<form class="form-horizontal" style="display: inline;" method="post" action="" id="frmSellRequest">
+    <div>
+        <button style="width:22%;margin-left: 31%;" type="submit" class="btn btn-success" name="btnSellRequest">
+        <i class="fa fa-check"></i>
+        Xin quyền bán
+        </button>
+    </div>
+</form>
+{{/if}}

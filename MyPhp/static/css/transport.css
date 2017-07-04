@@ -1,0 +1,707 @@
+.all-page-transport .bfstatistic-bar {
+  padding-left: 0;
+  padding-right: 0;
+}
+.all-page-transport .bfstatistic-bar .tab {
+  margin-right: 15px;
+}
+.all-page-transport .bfstatistic-bar > .btn.button-right {
+  float: right;
+  width: auto;
+}
+.all-page-transport input[type="text"] {
+  width: 100%;
+  height: 30px;
+  line-height: 30px;
+  border: 1px solid #DCDCDC;
+  padding: 0px 10px;
+  border-radius: 3px;
+  font-size: 13px;
+}
+.all-page-transport select {
+  width: 100%;
+  height: 30px;
+  line-height: 30px ;
+}
+.all-page-transport select option {
+  line-height: 30px;
+}
+.all-page-transport .icon-trp {
+  color: #666;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-transition: all 500ms ease 0s;
+  -o-transition: all 500ms ease 0s;
+  transition: all 500ms ease 0s;
+  width: 30px;
+  text-align: center;
+  line-height: 30px;
+  cursor: pointer;
+}
+.all-page-transport .icon-trp:hover {
+  color: #fff;
+}
+.all-page-transport .icon-trp.fa-unlock {
+  color: #00CC00;
+}
+.all-page-transport .icon-trp.fa-unlock:hover {
+  color: #fff;
+  background: #00CC00;
+}
+.all-page-transport .icon-trp.fa-lock {
+  color: #f21848;
+}
+.all-page-transport .icon-trp.fa-lock:hover {
+  color: #fff;
+  background: #f21848;
+}
+.all-page-transport .icon-trp.fa-pencil:hover {
+  background: #00BCD4;
+}
+.all-page-transport .icon-trp.fa-print:hover {
+  background: #00BCD4;
+}
+.all-page-transport .icon-trp.fa-refresh:hover {
+  background: #00BCD4;
+}
+.all-page-transport .icon-trp.fa-trash:hover {
+  background: #CC0000;
+}
+.all-page-transport .icon-trp.fa-close:hover {
+  background: #CC0000;
+}
+.all-page-transport .icon-trp.fa-circle-o {
+  color: #CC0000;
+}
+.all-page-transport .icon-trp.fa-circle-o.atv {
+  color: #00CC00;
+}
+.all-page-transport .trp-pagi {
+  text-align: center;
+  display: block;
+}
+.all-page-transport .trp-pagi .item-trp-pagi {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-transition: all 500ms ease 0s;
+  -o-transition: all 500ms ease 0s;
+  transition: all 500ms ease 0s;
+  cursor: pointer;
+  display: inline-block;
+  line-height: 30px;
+  padding: 0 10px;
+  font-family: HelveticaNeue-Medium;
+  color: #666;
+}
+.all-page-transport .trp-pagi .item-trp-pagi:hover {
+  color: #00bcd4;
+}
+.all-page-transport .trp-pagi .item-trp-pagi.atv {
+  background: #00bcd4;
+  color: #fff;
+}
+.all-page-transport .trp-pagi .item-trp-pagi.atv:hover {
+  color: #fff;
+  opacity: .9;
+}
+.all-page-transport .trp-pagi .pagi-select {
+  float: right;
+  width: 100px;
+}
+.all-page-transport [class^="col-trp-"] {
+  float: left;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-weight: 200;
+  color: #666;
+}
+.all-page-transport .box-title [class^="col-trp-"] {
+  font-size: 14px;
+  font-family: HelveticaNeue-Medium;
+  color: #444;
+  font-weight: 400;
+}
+.all-page-transport .statistic-bar {
+  width: 1024px;
+}
+.all-page-transport .button-box-title {
+  height: 30px;
+  line-height: 30px;
+  padding: 0 15px;
+  margin: 10px 0;
+  font-weight: 200px;
+  font-size: 14px;
+}
+.all-page-transport .button-box-title * {
+  line-height: 30px;
+}
+.all-page-transport .select-date-report .tt {
+  font-size: 12px;
+}
+.all-page-transport .select-date-report input {
+  width: 74px;
+  padding: 0 3px;
+  margin: 10px 6px;
+  font-size: 12px;
+}
+.all-page-transport .tagsinput {
+  border: none !important;
+  padding: 0 !important;
+  height: auto !important;
+}
+.all-page-transport .box-space.double-col .n {
+  margin-bottom: 17px;
+}
+.all-page-transport .box-space .title-box .hb {
+  float: left;
+  padding: 12px 0 10px 16px;
+  text-transform: uppercase;
+  color: #00bcd4;
+  font-family: 'HelveticaNeue-Medium';
+  font-size: 12px;
+}
+.all-page-transport .box-space .title-box .hr {
+  margin-top: 20px;
+}
+.all-page-transport .tk .ic {
+  margin-top: 8px;
+}
+.all-page-transport .content-box .box-title .black-title {
+  font-weight: bold;
+}
+.all-page-transport .sub-uppercase-title {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.all-page-transport .list-link a {
+  font-size: 12px;
+  margin: 0 10px;
+}
+.all-page-transport .list-link a.atv {
+  color: #00bcd4;
+  font-weight: bold;
+}
+.all-page-transport .sub-black-title.opacity-70.small {
+  opacity: .5;
+}
+.all-page-transport .sub-black-title-large {
+  font-size: 16px;
+}
+.all-page-transport .avatar-add-shipper {
+  width: 106px;
+  height: 106px;
+  background-image: url(../images/theme/main.png);
+  background-position: -360px -360px;
+  background-size: 500px 500px;
+  display: block;
+  margin: 0 auto;
+}
+.all-page-transport .navi-add-post .item-navi-post {
+  padding-bottom: 10px;
+}
+.all-page-transport .navi-add-post .item-navi-post .text-np {
+  height: auto;
+  color: #666;
+}
+.all-page-transport .navi-add-post .item-navi-post .text-np .sub-black-title-large {
+  color: #999999;
+}
+.all-page-transport .button-call-phone {
+  color: #0c0;
+}
+.page-transport-popup select {
+  height: 30px;
+  width: 100%;
+}
+.page-transport-popup .button-code {
+  position: relative;
+  color: transparent;
+}
+.page-transport-popup .button-code:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: "Hiện mã";
+  display: block;
+  color: #fff;
+}
+.page-transport-popup .button-code:hover {
+  color: #fff;
+}
+.page-transport-popup .button-code:hover:before {
+  display: none;
+}
+.page-transport-popup .img-image-verify {
+  background: #f0f0f0;
+  width: 100%;
+  display: block;
+  height: auto;
+  min-height: 50px;
+  text-align: center;
+  line-height: 50px;
+}
+/*  1. VẬN ĐƠN */
+#page-order-shipper .table-transport .col-trp-1 {
+  width: 80px;
+}
+#page-order-shipper .table-transport .col-trp-2 {
+  width: 150px;
+}
+#page-order-shipper .table-transport .col-trp-3 {
+  width: 190px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+#page-order-shipper .table-transport .col-trp-3 span.inner-row {
+  line-height: 20px;
+  display: block;
+  font-size: inherit;
+  font-family: inherit;
+  color: inherit;
+}
+#page-order-shipper .table-transport .col-trp-4 {
+  width: 160px;
+}
+#page-order-shipper .table-transport .col-trp-5 {
+  width: 160px;
+}
+#page-order-shipper .table-transport .col-trp-6 {
+  width: 160px;
+}
+#page-order-shipper .table-transport .col-trp-7 {
+  width: 30px;
+}
+
+#page-order-shipper .table-transport .col-trp-7 .fa-eye{
+  color: #00BCD4;
+}
+#page-order-shipper .table-transport .col-trp-7 .fa-eye:hover{
+  background: #00BCD4;
+  color: #fff;
+}
+/*  2. NGƯỜI VẬN CHUYỂN */
+#page-list-shipper .table-transport .col-trp-1 {
+  width: 80px;
+}
+#page-list-shipper .table-transport .col-trp-2 {
+  width: 170px;
+}
+#page-list-shipper .table-transport .col-trp-3 {
+  width: 50px;
+  text-align: center;
+}
+#page-list-shipper .table-transport .col-trp-4 {
+  width: 275px;
+}
+#page-list-shipper .table-transport .col-trp-5 {
+  width: 140px;
+}
+#page-list-shipper .table-transport .col-trp-6 {
+  width: 170px;
+}
+#page-list-shipper .table-transport .col-trp-7 {
+  width: 130px;
+}
+/*  2. NGƯỜI MUA HÀNG */
+#page-list-shopper .table-transport .col-trp-1 {
+  width: 80px;
+}
+#page-list-shopper .table-transport .col-trp-2 {
+  width: 170px;
+}
+#page-list-shopper .table-transport .col-trp-3 {
+  width: 50px;
+  text-align: center;
+}
+#page-list-shopper .table-transport .col-trp-4 {
+  width: 275px;
+}
+#page-list-shopper .table-transport .col-trp-5 {
+  width: 140px;
+}
+#page-list-shopper .table-transport .col-trp-6 {
+  width: 170px;
+}
+#page-list-shopper .table-transport .col-trp-7 {
+  width: 130px;
+}
+/*  3. TRANG THIẾT LẬP */
+#page-transport-config .menu-tab {
+  cursor: pointer;
+}
+#page-transport-config .menu-tab .fa-angle-right {
+  float: right;
+  width: 40px;
+  text-align: center;
+}
+#page-transport-config .atv {
+  font-weight: bold;
+}
+#page-transport-config #tab-config-box .col-trp-1 {
+  width: 60px;
+  padding-top: 20px;
+}
+#page-transport-config #tab-config-box .col-trp-2 {
+  width: 210px;
+}
+#page-transport-config #tab-config-box .col-trp-3 {
+  width: 210px;
+}
+#page-transport-config #tab-config-box .col-trp-4 {
+  width: 210px;
+}
+#page-transport-config #tab-config-box .col-trp-5 {
+  width: 60px;
+  padding-top: 20px;
+}
+#page-transport-config #tab-config-cant .col-trp-1 {
+  width: 60px;
+  padding-top: 20px;
+}
+#page-transport-config #tab-config-cant .col-trp-2 {
+  width: 210px;
+}
+#page-transport-config #tab-config-cant .col-trp-3 {
+  width: 210px;
+}
+#page-transport-config #tab-config-cant .col-trp-4 {
+  width: 210px;
+}
+#page-transport-config #tab-config-cant .col-trp-5 {
+  width: 60px;
+  padding-top: 20px;
+}
+#page-transport-config #tab-config-unit .col-trp-1,
+#page-transport-config #tab-config-unit .col-trp-2,
+#page-transport-config #tab-config-unit .col-trp-3 {
+  width: 33%;
+}
+#page-transport-config .tab-config-cost .col-trp-1 {
+  width: 40%;
+}
+#page-transport-config .tab-config-cost .col-trp-2 {
+  width: 20%;
+}
+#page-transport-config .tab-config-cost .col-trp-3 {
+  width: 50px;
+}
+#page-transport-config .tab-config-cost .col-trp-4 {
+  width: 120px;
+}
+#page-transport-config .tab-config-cost .trp-small-note {
+    display: block;
+    color: #999;
+    font-size: 12px;
+    font-weight: 200;
+}
+#page-transport-config .tab-config-cost .small-btn {
+    line-height: 20px;
+}
+#page-transport-config .trans-select {
+    width: 100%;
+}
+/*  6. TRANG BÁO CÁO SHOPPER */
+#page-report-shopper .col-trp-1 {
+  width: 100px;
+}
+#page-report-shopper .col-trp-2 {
+  width: 180px;
+}
+#page-report-shopper .col-trp-3 {
+  width: 180px;
+}
+#page-report-shopper .col-trp-4 {
+  width: 160px;
+}
+#page-report-shopper .col-trp-5 {
+  width: 140px;
+}
+#page-report-shipper .col-trp-1 {
+  width: 100px;
+}
+#page-report-shipper .col-trp-2 {
+  width: 180px;
+}
+#page-report-shipper .col-trp-3 {
+  width: 180px;
+}
+#page-report-shipper .col-trp-4 {
+  width: 160px;
+}
+#page-report-shipper .col-trp-5 {
+  width: 140px;
+}
+#page-detail-shipper .group-price-detail,
+#page-detail-shopper .group-price-detail,
+#page-transport-order-detail .group-price-detail {
+  border: 1px solid #cdcdcd;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  padding: 10px;
+}
+#page-detail-shipper .group-price-detail .val-money,
+#page-detail-shopper .group-price-detail .val-money,
+#page-transport-order-detail .group-price-detail .val-money {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+#page-detail-shipper .group-price-detail .val-text,
+#page-detail-shopper .group-price-detail .val-text,
+#page-transport-order-detail .group-price-detail .val-text {
+  opacity: .7;
+}
+#page-transport-order-detail #map-transport-order-detail {
+  height: 450px;
+  background: #dcdcdc;
+}
+#page-transport-order-detail .controls {
+  margin-top: 10px;
+  border: 1px solid transparent;
+  border-radius: 2px 0 0 2px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  height: 32px;
+  outline: none;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+#page-transport-order-detail #pac-input {
+  background-color: #fff;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 300;
+  margin-left: 12px;
+  padding: 0 11px 0 13px;
+  text-overflow: ellipsis;
+  width: 300px;
+  margin-top: 10px;
+}
+#page-transport-order-detail #pac-input:focus {
+  border-color: #4d90fe;
+}
+#page-transport-order-detail .pac-container {
+  font-family: Roboto;
+}
+#page-transport-order-detail #type-selector {
+  color: #fff;
+  background-color: #4d90fe;
+  padding: 5px 11px 0px 11px;
+}
+#page-transport-order-detail #type-selector label {
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 300;
+}
+#page-transport-order-detail #right-panel {
+  float: right;
+  width: 100%;
+  height: 450px;
+  overflow: auto;
+}
+#page-transport-order-detail #right-panel {
+  font-family: 'Roboto', 'sans-serif';
+  line-height: 30px;
+  padding-left: 10px;
+}
+#page-transport-order-detail #right-panel select,
+#page-transport-order-detail #right-panel input {
+  font-size: 15px;
+}
+#page-transport-order-detail #right-panel select {
+  width: 100%;
+}
+#page-transport-order-detail #right-panel i {
+  font-size: 12px;
+}
+/*  TRANG HOẠT ĐỘNG */
+.page-transport-action-container {
+  width: 100%;
+  height: 600px;
+}
+#page-transport-action {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+#page-transport-action .list-button-map-action {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  z-index: 1000;
+}
+#page-transport-action #map-transport-action {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  z-index: 10;
+}
+#page-transport-action #info-map-action {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 300px;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.75);
+  overflow: auto;
+  z-index: 1000;
+}
+#page-transport-action #info-map-action .line-bottom {
+  border-color: rgba(255, 255, 255, 0.5);
+}
+#page-transport-action .action-status {
+  color: #fff;
+  font-size: 40px;
+  font-weight: bold;
+  box-sizing: border-box;
+  padding: 20px 0 0 10px;
+}
+#page-transport-action .action-text {
+  color: #fff;
+  box-sizing: border-box;
+  padding: 0 0 0 10px;
+}
+.action-info-container .list-action-notify .item-notify {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+  color: #fff;
+  padding: 10px;
+  font-size: 13px;
+  line-height: 16px;
+}
+.action-info-container .list-action-notify .item-notify span {
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  padding: 0 3px;
+  margin-right: 5px;
+}
+.action-info-container .list-action-notify .item-notify:nth-child(1) span {
+  background: #f44336;
+}
+.action-info-container .list-action-notify .item-notify:nth-child(2) span {
+  background: #e91e63;
+}
+.action-info-container .list-action-notify .item-notify:nth-child(3) span {
+  background: #9c27b0;
+}
+.action-info-container .list-action-notify .item-notify:nth-child(4) span {
+  background: #2196f3;
+}
+.action-info-container .list-action-notify .item-notify:nth-child(5) span {
+  background: #00bcd4;
+}
+.action-info-container .list-action-notify .item-notify:nth-child(6) span {
+  background: #009688;
+}
+.action-info-container .list-action-notify .item-notify:nth-child(7) span {
+  background: #4caf50;
+}
+.action-info-container .list-action-notify .item-notify:nth-child(8) span {
+  background: #cddc39;
+}
+.action-info-container .list-action-notify .item-notify:nth-child(9) span {
+  background: #ffeb3b;
+}
+.action-info-container .list-action-notify .item-notify:nth-child(10) span {
+  background: #ff9800;
+}
+.action-info-container .list-action-notify .item-notify:nth-child(11) span {
+  background: #ff5722;
+}
+.action-info-container .list-action-notify .item-notify:nth-child(12) span {
+  background: #795548;
+}
+.action-info-container .list-action-notify .item-notify:nth-child(13) span {
+  background: #9e9e9e;
+}
+.action-info-container .list-action-notify .item-notify:nth-child(14) span {
+  background: #607d8b;
+}
+.action-info-container .list-action-notify .item-notify:nth-child(15) span {
+  background: #e57373;
+}
+.action-info-container .list-action-notify .item-notify:nth-child(16) span {
+  background: #ec407a;
+}
+.action-info-container .list-action-notify .item-notify:nth-child(17) span {
+  background: #ce93d8;
+}
+.action-info-container .list-action-notify .item-notify:nth-child(18) span {
+  background: #64b5f6;
+}
+.action-info-container .list-action-notify .item-notify:nth-child(19) span {
+  background: #4db6ac;
+}
+.action-info-container .list-action-notify .item-notify:nth-child(20) span {
+  background: #66bb6a;
+}
+.action-info-container .list-action-notify .item-notify:nth-child(21) span {
+  background: #d4e157;
+}
+.action-info-container .list-action-notify .item-notify:nth-child(22) span {
+  background: #ffb74d;
+}
+.action-info-container .list-action-notify .item-notify:nth-child(23) span {
+  background: #ff8a65;
+}
+.action-info-container .list-action-notify .item-notify:nth-child(24) span {
+  background: #a1887f;
+}
+.action-info-container .list-action-notify .item-notify:nth-child(25) span {
+  background: #757575;
+}
+.action-info-container .list-action-notify .item-notify:nth-child(26) span {
+  background: #c0ca33;
+}
+.action-info-container .list-action-notify .item-notify:nth-child(27) span {
+  background: #01579b;
+}
+.action-info-container .list-action-notify .item-notify:nth-child(28) span {
+  background: #006064;
+}
+.action-info-container .list-action-notify .item-notify:nth-child(29) span {
+  background: #004d40;
+}
+.action-info-container .list-action-notify .item-notify:nth-child(30) span {
+  background: #00b8d4;
+}
+
+.page-transport-view-popup #map_view_detail {
+    height: 350px;
+    background-color: #e5e3df;
+    overflow: hidden;
+    position: relative;
+}
+
+.page-transport-view-popup .view-action-detail {
+    background: rgba(70, 130, 180, 0.75) none repeat scroll 0 0;
+    color: #fff;
+}
+
+.page-transport-view-popup .view-action-detail .container-detail {
+    height: 100%;
+    overflow: auto;
+    max-height: 320px;
+    z-index: 1000;
+}
+.js-list-partner{
+    height: 200px;
+    overflow: auto;
+}
+.list-appuser {
+    cursor: pointer;
+}
+.list-appuser.atv,.list-appuser.atv:hover{
+    background-color: #00bcd4;
+    color: #FFF;
+}
+.list-appuser:hover {
+    background-color: #fafafa;
+}
